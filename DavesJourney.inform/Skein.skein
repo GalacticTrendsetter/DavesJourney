@@ -1,0 +1,148 @@
+<?xml version="1.0"?>
+
+<Skein rootNode="node-3463">
+    <generator>Inform Mac Client (Inform version )</generator>
+    <item nodeId="node-3463">
+        <command xml:space="preserve">DavesJourney</command>
+        <result xml:space="preserve">
+
+
+You wake up in the morning and you are in your bedroom, but your magic powers are gone! Uh Oh...
+
+Rainbow Dave's Journey
+An Interactive Fiction by Liam Calahan
+Release 1 / Serial number 220221 / Inform 7 build 6M62 (I6/v6.34 lib 6/12N) SD
+
+Dave's Bedroom
+You are in a small bedroom with a bed and a closet. To your south is the exit.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-3470"></child>
+            <child nodeId="node-3468"></child>
+            <child nodeId="node-3464"></child>
+        </children>
+    </item>
+    <item nodeId="node-3464">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Hallway Outside Dave's Room
+You are in a hallway. To your north is a door labeled "Dave's room", Room 201, and to your east and west the hallway continues.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-3465"></child>
+        </children>
+    </item>
+    <item nodeId="node-3465">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Hallway Outside Room 202
+You are in a hallway. To your north is a door labeled "Swimmy's Room", Room 202, and to your west there is a hallway.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-3466"></child>
+        </children>
+    </item>
+    <item nodeId="node-3466">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Swimmy's Room
+You are in a bedroom with ocean wallpaper, a bed, a couch, and a bunch of tools on top of a desk.
+
+Swimmy is sitting on the couch reading a book.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-3467"></child>
+            <child nodeId="node-3479"></child>
+        </children>
+    </item>
+    <item nodeId="node-3479">
+        <command xml:space="preserve">talk to swimmy</command>
+        <result xml:space="preserve">(Swimmy) Hi Dave, what is it?
+(You) I lost my magic powers this morning.
+(Swimmy) Oh no!
+Swimmy pauses and looks something up on his computer.
+(Swimmy) Apparently you can get them back, you just need to find 4 magic crystals! Maybe you can find them. Look around!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-3488"></child>
+        </children>
+    </item>
+    <item nodeId="node-3488">
+        <command xml:space="preserve">talk to swimmy</command>
+        <result xml:space="preserve">(Swimmy) Good luck Dave!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-3467">
+        <command xml:space="preserve">look at swimmy</command>
+        <result xml:space="preserve">(Swimmy) Hi Dave!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-3468">
+        <command xml:space="preserve">look</command>
+        <result xml:space="preserve">Small Bedroom
+You are in a small bedroom with a bed and a closet. To your south is the exit.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-3469"></child>
+        </children>
+    </item>
+    <item nodeId="node-3469">
+        <command xml:space="preserve">look at bedroom</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-3470">
+        <command xml:space="preserve">go south</command>
+        <result xml:space="preserve">
+Hallway Outside Dave's Room
+You are in a hallway. To your north is a door labeled "Dave's room", Room 201, and to your east and west the hallway continues.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-3471"></child>
+        </children>
+    </item>
+    <item nodeId="node-3471">
+        <command xml:space="preserve">west</command>
+        <result xml:space="preserve">
+Hallway Outside Room 200
+You are in a hallway. To your north is a door labeled "Sylvia's room", Room 200, and to your east there is a hallway, and to your west there is an elevator.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-3472"></child>
+        </children>
+    </item>
+    <item nodeId="node-3472">
+        <command xml:space="preserve">north</command>
+        <result xml:space="preserve">
+Sylvia's Room
+You are in a pink bedroom with a bed and a closet, and an oven that smells like chocolate cake. To your south is the exit.
+
+Sylvia is snoring loudly on the bed.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-3473"></child>
+        </children>
+    </item>
+    <item nodeId="node-3473">
+        <command xml:space="preserve">look at sylvia</command>
+        <result xml:space="preserve">Upon closer examination, Sylvia seems to be dreaming about chocolate cake.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+</Skein>
