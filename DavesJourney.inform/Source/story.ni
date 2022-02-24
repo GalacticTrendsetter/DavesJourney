@@ -85,7 +85,7 @@ Instead of giving Chocolate Candies to Sylvia while the Spoken To of Sylvia is "
 Instead of giving Chocolate Candies to Sylvia while the Spoken To of Sylvia is "no":
 	say "Sylvia is fast asleep, and has no interest in anything."
 
-Sylvia's door is north of Hallway Outside Room 200. Sylvia's door is a door. Sylvia's door is scenery. Sylvia's door is lockable and locked. Small Key unlocks Sylvia's door.
+Sylvia's door is north of Hallway Outside Room 200. Sylvia's door is a door. Sylvia's door is scenery. Sylvia's door is lockable and locked. Sylvia's Key unlocks Sylvia's door.
 
 Section - Swimmy
 
@@ -313,7 +313,7 @@ Hallway Outside Room 300 is a room. Hallway Outside Room 300 is east of Elevator
 
 Tiggery's Room is a room. Tiggery's Room is north of Tiggery's door. "You are in a bedroom with orange striped wallpaper, a bed, a couch, a desk, and tools hanging on the wall."
 
-Tiggery is in Tiggery's Room. Tiggery is a person. "Tiggery is making something with his tools." Instead of examining Tiggery, say "(Tiggery) Hmmm? Oh! Hi Dave." Tiggery is carrying Small Key. Description of Small Key is "A key that is labeled 'Sylvia's key'." Instead of talking to Tiggery:
+Tiggery is in Tiggery's Room. Tiggery is a person. "Tiggery is making something with his tools." Instead of examining Tiggery, say "(Tiggery) Hmmm? Oh! Hi Dave." Tiggery is carrying Sylvia's Key. Description of Sylvia's Key is "A key that is labeled 'Sylvia's key'." Instead of talking to Tiggery:
 	say "(Tiggery) What's going on, Dave?";
 	say "(You) I lost my powers this morning!";
 	say "(Tiggery) That's not good! Swimmy probably already told you, but you need apparently 3 magic crystals.";
@@ -335,13 +335,13 @@ Instead of giving Sushi to Tiggery:
 	say "(Tiggery) Oh wow! Thank you!";
 	remove Sushi from play;
 	say "(Tiggery) I just realized, I can give you this Key. I don't know why you would want it, but here you go!";
-	now the player is carrying Small Key.
+	now the player is carrying Sylvia's Key.
 		
 Tiggery's door is north of Hallway Outside Room 300. Tiggery's door is a door. Tiggery's door is scenery. Tiggery's door is lockable and unlocked.
 
 Section - Orca Room
 
-Hallway Outside Room 301 is a room. Hallway Outside Room 301 is east of Hallway Outside Room 300. "You are in a hallway. To your north is a door labeled 'Orca's Room', Room 301, and to your west there is a hallway."
+Hallway Outside Room 301 is a room. Hallway Outside Room 301 is east of Hallway Outside Room 300. "You are in a hallway. To your north is a door labeled 'Orca's Room', Room 301, and to your east and west there is hallway."
 
 Orca's Room is a room. Orca's Room is north of Orca's door. "You are in a bedroom with orange striped wallpaper, a bed, a couch, a desk, and tools hanging on the wall."
 
@@ -438,7 +438,7 @@ Section - Plains of Car Pet
 
 North Plains of Car Pet is south of Lobby. "You are in a desolate wasteland, and the ground is striped with red and white. To your south the plains continue, to your west is Mount Pyanno, and to your north is the entrance to SPICH."
 
-South Plains of Car Pet is south of North Plains of Car Pet. "You are in a desolate wasteland, and the ground is striped with red and white. To your north the plains continue, to your east is the Hills of Kauch and to your south is the enourmous Bukshelv Cliff."
+South Plains of Car Pet is south of North Plains of Car Pet. "You are in a desolate wasteland, and the ground is striped with red and white. To your north the plains continue, to your east is the Hills of Kauch, where you can see the Kauch River, and to your south is the enourmous Bukshelv Cliff."
 
 Section - Mount Pyanno
 
@@ -497,7 +497,7 @@ Godzilla is a person. Godzilla is in Bukshelv Cliff Summit. "Godzilla is standin
 
 Section - Hills of Kauch
 
-Hills of Kauch is east of South Plains of Car Pet. "You are on some navy blue hills, with the Kauch River flowing through, and to your east is a view that seems to go on forever. To your west is the South Plains of Car Pet."
+Hills of Kauch is east of South Plains of Car Pet. "You are on some navy blue hills and to your east is a view that seems to go on forever. To your west is the South Plains of Car Pet. [paragraph break] You are at the edge of a large rushing river, the Kauch River."
 
 Kauch River is in Hills of Kauch. Kauch River is scenery. "The Kauch River stretches across, flowing quickly down towards the base of Bukshelv Cliff."
 

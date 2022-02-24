@@ -8728,6 +8728,7 @@ Sylvia is trying to fall asleep but keeps thinking about chocolate.
         <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-4302"></child>
             <child nodeId="node-4284"></child>
+            <child nodeId="node-4554"></child>
             <child nodeId="node-4204"></child>
         </children>
     </item>
@@ -9633,6 +9634,4133 @@ Sylvia is snoring loudly on the bed.
   Small Key
 
 &gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-4554">
+        <command xml:space="preserve">look closet</command>
+        <result xml:space="preserve">A dusty brown closet. Not much to see.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4555"></child>
+        </children>
+    </item>
+    <item nodeId="node-4555">
+        <command xml:space="preserve">south</command>
+        <result xml:space="preserve">(first opening Dave's door)
+
+Hallway Outside Dave's Room
+You are in a hallway. To your north is a door labeled "Dave's room", Room 201, and to your east and west the hallway continues.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4556"></child>
+        </children>
+    </item>
+    <item nodeId="node-4556">
+        <command xml:space="preserve">look</command>
+        <result xml:space="preserve">Hallway Outside Dave's Room
+You are in a hallway. To your north is a door labeled "Dave's room", Room 201, and to your east and west the hallway continues.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4557"></child>
+        </children>
+    </item>
+    <item nodeId="node-4557">
+        <command xml:space="preserve">east</command>
+        <result xml:space="preserve">
+Hallway Outside Room 202
+You are in a hallway. To your north is a door labeled "Swimmy's Room", Room 202, and to your west there is a hallway.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4558"></child>
+        </children>
+    </item>
+    <item nodeId="node-4558">
+        <command xml:space="preserve">north</command>
+        <result xml:space="preserve">(first opening Swimmy's door)
+
+Swimmy's room
+You are in a bedroom with ocean wallpaper, a bed, a couch, and a bunch of tools on top of a desk.
+
+Swimmy is sitting on the couch reading a book.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4559"></child>
+        </children>
+    </item>
+    <item nodeId="node-4559">
+        <command xml:space="preserve">talk to swimmy</command>
+        <result xml:space="preserve">(Swimmy) Hi Dave, what is it?
+(You) I lost my magic powers this morning.
+(Swimmy) Oh no!
+He pauses and looks something up on his computer.
+(Swimmy) Apparently you can get them back, you just need to find 3 magic crystals! Maybe you can find them. Look around! And if you find them, make sure to bring them back to me.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4560"></child>
+        </children>
+    </item>
+    <item nodeId="node-4560">
+        <command xml:space="preserve">talk to swimmy</command>
+        <result xml:space="preserve">(Swimmy) Good luck Dave!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4561"></child>
+        </children>
+    </item>
+    <item nodeId="node-4561">
+        <command xml:space="preserve">take book</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4562"></child>
+        </children>
+    </item>
+    <item nodeId="node-4562">
+        <command xml:space="preserve">take swimmy</command>
+        <result xml:space="preserve">I don't suppose Swimmy would care for that.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4563"></child>
+        </children>
+    </item>
+    <item nodeId="node-4563">
+        <command xml:space="preserve">south</command>
+        <result xml:space="preserve">
+Hallway Outside Room 202
+You are in a hallway. To your north is a door labeled "Swimmy's Room", Room 202, and to your west there is a hallway.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4564"></child>
+        </children>
+    </item>
+    <item nodeId="node-4564">
+        <command xml:space="preserve">east</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4565"></child>
+        </children>
+    </item>
+    <item nodeId="node-4565">
+        <command xml:space="preserve">west</command>
+        <result xml:space="preserve">
+Hallway Outside Dave's Room
+You are in a hallway. To your north is a door labeled "Dave's room", Room 201, and to your east and west the hallway continues.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4566"></child>
+        </children>
+    </item>
+    <item nodeId="node-4566">
+        <command xml:space="preserve">west</command>
+        <result xml:space="preserve">
+Hallway Outside Room 200
+You are in a hallway. To your north is a door labeled "Sylvia's room", Room 200, and to your east there is a hallway, and to your west there is an elevator.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4567"></child>
+        </children>
+    </item>
+    <item nodeId="node-4567">
+        <command xml:space="preserve">look</command>
+        <result xml:space="preserve">Hallway Outside Room 200
+You are in a hallway. To your north is a door labeled "Sylvia's room", Room 200, and to your east there is a hallway, and to your west there is an elevator.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4568"></child>
+        </children>
+    </item>
+    <item nodeId="node-4568">
+        <command xml:space="preserve">north</command>
+        <result xml:space="preserve">(first opening Sylvia's door)
+It seems to be locked.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4569"></child>
+        </children>
+    </item>
+    <item nodeId="node-4569">
+        <command xml:space="preserve">west</command>
+        <result xml:space="preserve">
+Elevator Floor 2
+You are in an elevator room. The elevator can go up or down. To your east is a hallway.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4570"></child>
+        </children>
+    </item>
+    <item nodeId="node-4570">
+        <command xml:space="preserve">down</command>
+        <result xml:space="preserve">
+Elevator Floor 1
+You are in an elevator room. The elevator can go up but not down. To your east is a hallway, and to your south is a door labeled "Commons".
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4571"></child>
+        </children>
+    </item>
+    <item nodeId="node-4571">
+        <command xml:space="preserve">look</command>
+        <result xml:space="preserve">Elevator Floor 1
+You are in an elevator room. The elevator can go up but not down. To your east is a hallway, and to your south is a door labeled "Commons".
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4572"></child>
+        </children>
+    </item>
+    <item nodeId="node-4572">
+        <command xml:space="preserve">south</command>
+        <result xml:space="preserve">
+Commons
+You are in a nicely furnished room with a fireplace and some couches and books on the shelf. To your north is the elevator, and to your east is the lobby.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4573"></child>
+        </children>
+    </item>
+    <item nodeId="node-4573">
+        <command xml:space="preserve">look</command>
+        <result xml:space="preserve">Commons
+You are in a nicely furnished room with a fireplace and some couches and books on the shelf. To your north is the elevator, and to your east is the lobby.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4574"></child>
+        </children>
+    </item>
+    <item nodeId="node-4574">
+        <command xml:space="preserve">look fireplace</command>
+        <result xml:space="preserve">The firplace crackles warmly, and you feel better.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4575"></child>
+        </children>
+    </item>
+    <item nodeId="node-4575">
+        <command xml:space="preserve">look books</command>
+        <result xml:space="preserve">The books are mostly about SPICH, and some are about stuffie planet.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4576"></child>
+        </children>
+    </item>
+    <item nodeId="node-4576">
+        <command xml:space="preserve">read books</command>
+        <result xml:space="preserve">The books are mostly about SPICH, and some are about stuffie planet.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4577"></child>
+        </children>
+    </item>
+    <item nodeId="node-4577">
+        <command xml:space="preserve">sit on couch</command>
+        <result xml:space="preserve">That's not something you can sit down on.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4578"></child>
+        </children>
+    </item>
+    <item nodeId="node-4578">
+        <command xml:space="preserve">east</command>
+        <result xml:space="preserve">
+Lobby
+You are in a entrance lobby. To your west is the commons, and to your south is the exit into the land of Lhivhingrum. For some reason, no one is at the check-in desk. There is a sign on the wall.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4579"></child>
+        </children>
+    </item>
+    <item nodeId="node-4579">
+        <command xml:space="preserve">read sign</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4580"></child>
+        </children>
+    </item>
+    <item nodeId="node-4580">
+        <command xml:space="preserve">look sign</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4581"></child>
+        </children>
+    </item>
+    <item nodeId="node-4581">
+        <command xml:space="preserve">east</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4582"></child>
+        </children>
+    </item>
+    <item nodeId="node-4582">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Commons
+You are in a nicely furnished room with a fireplace and some couches and books on the shelf. To your north is the elevator, and to your east is the lobby.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4583"></child>
+        </children>
+    </item>
+    <item nodeId="node-4583">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Lobby
+You are in a entrance lobby. To your west is the commons, and to your south is the exit into the land of Lhivhingrum. For some reason, no one is at the check-in desk. There is a sign on the wall.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4584"></child>
+        </children>
+    </item>
+    <item nodeId="node-4584">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Commons
+You are in a nicely furnished room with a fireplace and some couches and books on the shelf. To your north is the elevator, and to your east is the lobby.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4585"></child>
+        </children>
+    </item>
+    <item nodeId="node-4585">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4586"></child>
+        </children>
+    </item>
+    <item nodeId="node-4586">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Lobby
+You are in a entrance lobby. To your west is the commons, and to your south is the exit into the land of Lhivhingrum. For some reason, no one is at the check-in desk. There is a sign on the wall.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4587"></child>
+        </children>
+    </item>
+    <item nodeId="node-4587">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+North Plains of Car Pet
+You are in a desolate wasteland, and the ground is striped with red and white. To your south the plains continue, to your west is Mount Pyanno, and to your north is the entrance to SPICH.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4588"></child>
+        </children>
+    </item>
+    <item nodeId="node-4588">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+South Plains of Car Pet
+You are in a desolate wasteland, and the ground is striped with red and white. To your north the plains continue, to your east is the Hills of Kauch and to your south is the enourmous Bukshelv Cliff.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4589"></child>
+        </children>
+    </item>
+    <item nodeId="node-4589">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Lower Central Bukshelv Cliff
+You are at the base of the most enormous cliff imaginable. It is so steep, how on earth can you get up there? The base of the cliff stretches on to your east and west, to your south is the Plains of Car Pet.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4590"></child>
+        </children>
+    </item>
+    <item nodeId="node-4590">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4591"></child>
+        </children>
+    </item>
+    <item nodeId="node-4591">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Lower West Bukshelv Cliff
+You are at the base of the most enormous cliff imaginable. It is so steep, how on earth can you get up there? The base of the cliff stretches on to your east.
+
+You see a giant bull who seems to enjoy sitting at the base of this majestic cliff.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4592"></child>
+        </children>
+    </item>
+    <item nodeId="node-4592">
+        <command xml:space="preserve">talk to bull</command>
+        <result xml:space="preserve">(Benny the Bull) I heard that there's a magic crystal up there, but it's too steep for me.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4593"></child>
+        </children>
+    </item>
+    <item nodeId="node-4593">
+        <command xml:space="preserve">look up</command>
+        <result xml:space="preserve">You see nothing unexpected in that direction.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4594"></child>
+        </children>
+    </item>
+    <item nodeId="node-4594">
+        <command xml:space="preserve">climb</command>
+        <result xml:space="preserve">(Benny the Bull)
+Little is to be achieved by that.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4595"></child>
+        </children>
+    </item>
+    <item nodeId="node-4595">
+        <command xml:space="preserve">u</command>
+        <result xml:space="preserve">You try climbing but you slide back down after a few feet. Hmm... you might need something bouncy?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4596"></child>
+        </children>
+    </item>
+    <item nodeId="node-4596">
+        <command xml:space="preserve">north</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4597"></child>
+        </children>
+    </item>
+    <item nodeId="node-4597">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Lower Central Bukshelv Cliff
+You are at the base of the most enormous cliff imaginable. It is so steep, how on earth can you get up there? The base of the cliff stretches on to your east and west, to your south is the Plains of Car Pet.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4598"></child>
+        </children>
+    </item>
+    <item nodeId="node-4598">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Lower East Bukshelv Cliff
+You are at the base of the most enormous cliff imaginable. It is so steep, how on earth can you get up there? The base of the cliff stretches on to your west.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4599"></child>
+        </children>
+    </item>
+    <item nodeId="node-4599">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4600"></child>
+        </children>
+    </item>
+    <item nodeId="node-4600">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4601"></child>
+        </children>
+    </item>
+    <item nodeId="node-4601">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4602"></child>
+        </children>
+    </item>
+    <item nodeId="node-4602">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Lower Central Bukshelv Cliff
+You are at the base of the most enormous cliff imaginable. It is so steep, how on earth can you get up there? The base of the cliff stretches on to your east and west, to your south is the Plains of Car Pet.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4603"></child>
+        </children>
+    </item>
+    <item nodeId="node-4603">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+South Plains of Car Pet
+You are in a desolate wasteland, and the ground is striped with red and white. To your north the plains continue, to your east is the Hills of Kauch and to your south is the enourmous Bukshelv Cliff.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4604"></child>
+        </children>
+    </item>
+    <item nodeId="node-4604">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Hills of Kauch
+You are on some navy blue hills, with the Kauch River flowing through, and to your east is a view that seems to go on forever. To your west is the South Plains of Car Pet.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4605"></child>
+        </children>
+    </item>
+    <item nodeId="node-4605">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4606"></child>
+        </children>
+    </item>
+    <item nodeId="node-4606">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4607"></child>
+        </children>
+    </item>
+    <item nodeId="node-4607">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4608"></child>
+        </children>
+    </item>
+    <item nodeId="node-4608">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+South Plains of Car Pet
+You are in a desolate wasteland, and the ground is striped with red and white. To your north the plains continue, to your east is the Hills of Kauch and to your south is the enourmous Bukshelv Cliff.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4609"></child>
+        </children>
+    </item>
+    <item nodeId="node-4609">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4610"></child>
+        </children>
+    </item>
+    <item nodeId="node-4610">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+North Plains of Car Pet
+You are in a desolate wasteland, and the ground is striped with red and white. To your south the plains continue, to your west is Mount Pyanno, and to your north is the entrance to SPICH.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4611"></child>
+        </children>
+    </item>
+    <item nodeId="node-4611">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Lower Mount Pyanno
+You are on the lower base of a high mountain. The mountain is made of some sort of black rock. The Mountain continues to your west.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4612"></child>
+        </children>
+    </item>
+    <item nodeId="node-4612">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Upper Mount Pyanno
+You are near the peak of Mount Pyanno. It is too steep to fully summit, though.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4613"></child>
+        </children>
+    </item>
+    <item nodeId="node-4613">
+        <command xml:space="preserve">look view</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4614"></child>
+        </children>
+    </item>
+    <item nodeId="node-4614">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Lower Mount Pyanno
+You are on the lower base of a high mountain. The mountain is made of some sort of black rock. The Mountain continues to your west.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4615"></child>
+        </children>
+    </item>
+    <item nodeId="node-4615">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+North Plains of Car Pet
+You are in a desolate wasteland, and the ground is striped with red and white. To your south the plains continue, to your west is Mount Pyanno, and to your north is the entrance to SPICH.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4616"></child>
+        </children>
+    </item>
+    <item nodeId="node-4616">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Lobby
+You are in a entrance lobby. To your west is the commons, and to your south is the exit into the land of Lhivhingrum. For some reason, no one is at the check-in desk. There is a sign on the wall.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4617"></child>
+        </children>
+    </item>
+    <item nodeId="node-4617">
+        <command xml:space="preserve">look</command>
+        <result xml:space="preserve">Lobby
+You are in a entrance lobby. To your west is the commons, and to your south is the exit into the land of Lhivhingrum. For some reason, no one is at the check-in desk. There is a sign on the wall.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4618"></child>
+        </children>
+    </item>
+    <item nodeId="node-4618">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Commons
+You are in a nicely furnished room with a fireplace and some couches and books on the shelf. To your north is the elevator, and to your east is the lobby.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4619"></child>
+        </children>
+    </item>
+    <item nodeId="node-4619">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Elevator Floor 1
+You are in an elevator room. The elevator can go up but not down. To your east is a hallway, and to your south is a door labeled "Commons".
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4620"></child>
+        </children>
+    </item>
+    <item nodeId="node-4620">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Hallway Outside Room 100
+You are in a hallway. To your north is a door labeled "Bear Bear's Room", Room 100, and to your east there is a hallway, and to your west there is an elevator.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4621"></child>
+        </children>
+    </item>
+    <item nodeId="node-4621">
+        <command xml:space="preserve">north</command>
+        <result xml:space="preserve">(first opening BearBear's door)
+
+BearBear's room
+You are in a bedroom with honey wallpaper, a bed, a couch, a TV, and a bunch of books on top of a shelf.
+
+Bear Bear is sitting on the couch watching basketball.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4622"></child>
+        </children>
+    </item>
+    <item nodeId="node-4622">
+        <command xml:space="preserve">talk to bear bear</command>
+        <result xml:space="preserve">(Bear Bear) What is it, Dave?
+(You) Oh, I lost my powers this morning...
+(Bear Bear) Hmmm... I have something that might help you, but could you find me a honey cake from the kitchen first?
+(You) Ok, I will bring one back here.
+
+Bear Bear yells at the TV.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4623"></child>
+        </children>
+    </item>
+    <item nodeId="node-4623">
+        <command xml:space="preserve">talk to bear bear</command>
+        <result xml:space="preserve">(Bear Bear) I want some cake!
+
+Bear Bear yells at the TV.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4624"></child>
+        </children>
+    </item>
+    <item nodeId="node-4624">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Hallway Outside Room 100
+You are in a hallway. To your north is a door labeled "Bear Bear's Room", Room 100, and to your east there is a hallway, and to your west there is an elevator.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4625"></child>
+        </children>
+    </item>
+    <item nodeId="node-4625">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Hallway Outside Room 101
+You are in a hallway. To your north is a door labeled "Little Giraffe's Room", Room 101, and to your east and west there is more hallway.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4626"></child>
+        </children>
+    </item>
+    <item nodeId="node-4626">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">(first opening Little Giraffe's door)
+
+Little Giraffe's room
+You are in a bedroom with grassy wallpaper, a bed, a couch, and a desk.
+
+Little Giraffe is sitting on the couch watching TV.
+
+ A loud explosion comes from the TV. 
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4627"></child>
+        </children>
+    </item>
+    <item nodeId="node-4627">
+        <command xml:space="preserve">talk to giraffe</command>
+        <result xml:space="preserve">(Little Giraffe) What is it, Dave? Did you bring me candy?
+(You) No, but I lost my powers this morning...
+(Little Giraffe) Maybe I have something that will help. If you find my pool floatie I will give you one of my special toys!
+(You) Ok, I will find it!.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4628"></child>
+        </children>
+    </item>
+    <item nodeId="node-4628">
+        <command xml:space="preserve">talk to giraffe</command>
+        <result xml:space="preserve">(Little Giraffe) I hope you find it!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4629"></child>
+        </children>
+    </item>
+    <item nodeId="node-4629">
+        <command xml:space="preserve">talk to giraffe</command>
+        <result xml:space="preserve">(Little Giraffe) I hope you find it!
+
+ Little Giraffe cheers at something on the TV. 
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4630"></child>
+        </children>
+    </item>
+    <item nodeId="node-4630">
+        <command xml:space="preserve">look tv</command>
+        <result xml:space="preserve">Little Giraffe is watching Muffy the Stuffie. This episode is about Muffy trying to blow up the car so she doesn't have to go to the vet.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4631"></child>
+        </children>
+    </item>
+    <item nodeId="node-4631">
+        <command xml:space="preserve">look tv</command>
+        <result xml:space="preserve">Little Giraffe is watching Muffy the Stuffie. This episode is about Muffy trying to blow up the car so she doesn't have to go to the vet.
+
+ A loud explosion comes from the TV. 
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4632"></child>
+        </children>
+    </item>
+    <item nodeId="node-4632">
+        <command xml:space="preserve">look tv</command>
+        <result xml:space="preserve">Little Giraffe is watching Muffy the Stuffie. This episode is about Muffy trying to blow up the car so she doesn't have to go to the vet.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4633"></child>
+        </children>
+    </item>
+    <item nodeId="node-4633">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Hallway Outside Room 101
+You are in a hallway. To your north is a door labeled "Little Giraffe's Room", Room 101, and to your east and west there is more hallway.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4634"></child>
+        </children>
+    </item>
+    <item nodeId="node-4634">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Hallway Outside Room 102
+You are in a hallway. To your north is a door labeled "Big Giraffe's Room", Room 102, and to your east and west there a hallway.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4635"></child>
+        </children>
+    </item>
+    <item nodeId="node-4635">
+        <command xml:space="preserve">b</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4636"></child>
+        </children>
+    </item>
+    <item nodeId="node-4636">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">(first opening Big Giraffe's door)
+
+Big Giraffe's room
+You are in a bedroom with grassy wallpaper, a bed, a couch, and photos on the wall.
+
+Big Giraffe is sewing something.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4637"></child>
+        </children>
+    </item>
+    <item nodeId="node-4637">
+        <command xml:space="preserve">talk to big</command>
+        <result xml:space="preserve">(Big Giraffe)
+(Big Giraffe) Hi Dave.
+(You) I lost my powers this morning!
+(Big Giraffe) Oh no! Sorry, but there is not much I can do. Try talking to Little Giraffe.
+(You) I already did!
+(Big Giraffe) Oh, then maybe she has something for you. Good luck Dave!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4638"></child>
+        </children>
+    </item>
+    <item nodeId="node-4638">
+        <command xml:space="preserve">talk to big</command>
+        <result xml:space="preserve">(Big Giraffe)
+Try talking to Little Giraffe.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4639"></child>
+        </children>
+    </item>
+    <item nodeId="node-4639">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Hallway Outside Room 102
+You are in a hallway. To your north is a door labeled "Big Giraffe's Room", Room 102, and to your east and west there a hallway.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4640"></child>
+        </children>
+    </item>
+    <item nodeId="node-4640">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Hallway Outside Room 101
+You are in a hallway. To your north is a door labeled "Little Giraffe's Room", Room 101, and to your east and west there is more hallway.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4641"></child>
+        </children>
+    </item>
+    <item nodeId="node-4641">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Hallway Outside Room 100
+You are in a hallway. To your north is a door labeled "Bear Bear's Room", Room 100, and to your east there is a hallway, and to your west there is an elevator.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4642"></child>
+        </children>
+    </item>
+    <item nodeId="node-4642">
+        <command xml:space="preserve">look</command>
+        <result xml:space="preserve">Hallway Outside Room 100
+You are in a hallway. To your north is a door labeled "Bear Bear's Room", Room 100, and to your east there is a hallway, and to your west there is an elevator.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4643"></child>
+        </children>
+    </item>
+    <item nodeId="node-4643">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Elevator Floor 1
+You are in an elevator room. The elevator can go up but not down. To your east is a hallway, and to your south is a door labeled "Commons".
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4644"></child>
+        </children>
+    </item>
+    <item nodeId="node-4644">
+        <command xml:space="preserve">u</command>
+        <result xml:space="preserve">
+Elevator Floor 2
+You are in an elevator room. The elevator can go up or down. To your east is a hallway.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4645"></child>
+        </children>
+    </item>
+    <item nodeId="node-4645">
+        <command xml:space="preserve">u</command>
+        <result xml:space="preserve">
+Elevator Floor 3
+You are in an elevator room. The elevator can go down but not up. To your south is a door labeled "Pool", and to your east is a door labeled "Dining Room and Rooms".
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4646"></child>
+        </children>
+    </item>
+    <item nodeId="node-4646">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Outdoor Balcony
+A large balcony. To the east is the Dining Room, and to the North is the Elevator.
+
+You can see a Pool and Bucket here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4647"></child>
+        </children>
+    </item>
+    <item nodeId="node-4647">
+        <command xml:space="preserve">look bucket</command>
+        <result xml:space="preserve">A weathered metal bucket, still good enough to hold water.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4648"></child>
+        </children>
+    </item>
+    <item nodeId="node-4648">
+        <command xml:space="preserve">take bucket</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4649"></child>
+        </children>
+    </item>
+    <item nodeId="node-4649">
+        <command xml:space="preserve">look pool</command>
+        <result xml:space="preserve">The sun reflects off the water, and you can see something floating on the water. It appears to be a giraffe floatie.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4650"></child>
+        </children>
+    </item>
+    <item nodeId="node-4650">
+        <command xml:space="preserve">take floatie</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4651"></child>
+        </children>
+    </item>
+    <item nodeId="node-4651">
+        <command xml:space="preserve">fill bucket with water</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4652"></child>
+        </children>
+    </item>
+    <item nodeId="node-4652">
+        <command xml:space="preserve">look bucket</command>
+        <result xml:space="preserve">A weathered metal bucket, still good enough to hold water.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4653"></child>
+        </children>
+    </item>
+    <item nodeId="node-4653">
+        <command xml:space="preserve">look</command>
+        <result xml:space="preserve">Outdoor Balcony
+A large balcony. To the east is the Dining Room, and to the North is the Elevator.
+
+You can see a Pool here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4654"></child>
+        </children>
+    </item>
+    <item nodeId="node-4654">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Dining Room
+You are in a large area with a bunch of round tables. To your north is a hallway, and to your west is a door to the pool.
+
+Orca is sitting at one of the tables.
+
+Fladibearius is sitting at another table.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4655"></child>
+        </children>
+    </item>
+    <item nodeId="node-4655">
+        <command xml:space="preserve">look</command>
+        <result xml:space="preserve">Dining Room
+You are in a large area with a bunch of round tables. To your north is a hallway, and to your west is a door to the pool.
+
+Orca is sitting at one of the tables.
+
+Fladibearius is sitting at another table.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4656"></child>
+        </children>
+    </item>
+    <item nodeId="node-4656">
+        <command xml:space="preserve">talk to orca</command>
+        <result xml:space="preserve">(Orca) Swimmy told me what happened, Dave.
+(You) Can you help me?
+(Orca) What do you need?
+(You) Um, nothing.
+(Orca) Well, have some sushi!
+You eat sushi with Orca.
+(Orca) Bye Dave!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4657"></child>
+        </children>
+    </item>
+    <item nodeId="node-4657">
+        <command xml:space="preserve">i</command>
+        <result xml:space="preserve">You are carrying:
+  Floatie
+  Bucket
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4658"></child>
+        </children>
+    </item>
+    <item nodeId="node-4658">
+        <command xml:space="preserve">take sushi</command>
+        <result xml:space="preserve">That seems to belong to Orca.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4659"></child>
+        </children>
+    </item>
+    <item nodeId="node-4659">
+        <command xml:space="preserve">talk to flad</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4660"></child>
+        </children>
+    </item>
+    <item nodeId="node-4660">
+        <command xml:space="preserve">talk to fladibearius</command>
+        <result xml:space="preserve">(Fladibearius) Hi Dave, I heard about what happened. I can't really help you, sorry!
+(You) That's fine Fladibearius. What are you eating?
+(Fladibearius) This is honey cake. Do you want any?
+(Yes or No)&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4661"></child>
+        </children>
+    </item>
+    <item nodeId="node-4661">
+        <command xml:space="preserve">yes</command>
+        <result xml:space="preserve">(Fladibearius) Here you are!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4662"></child>
+        </children>
+    </item>
+    <item nodeId="node-4662">
+        <command xml:space="preserve">i</command>
+        <result xml:space="preserve">You are carrying:
+  Honey Cake
+  Floatie
+  Bucket
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4663"></child>
+        </children>
+    </item>
+    <item nodeId="node-4663">
+        <command xml:space="preserve">talk to orca</command>
+        <result xml:space="preserve">(Orca) Good luck!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4664"></child>
+        </children>
+    </item>
+    <item nodeId="node-4664">
+        <command xml:space="preserve">talk to orca</command>
+        <result xml:space="preserve">(Orca) Good luck!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4665"></child>
+        </children>
+    </item>
+    <item nodeId="node-4665">
+        <command xml:space="preserve">take sushi</command>
+        <result xml:space="preserve">That seems to belong to Orca.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4666"></child>
+        </children>
+    </item>
+    <item nodeId="node-4666">
+        <command xml:space="preserve">look</command>
+        <result xml:space="preserve">Dining Room
+You are in a large area with a bunch of round tables. To your north is a hallway, and to your west is a door to the pool.
+
+Orca is sitting at one of the tables.
+
+Fladibearius is sitting at another table.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4667"></child>
+        </children>
+    </item>
+    <item nodeId="node-4667">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Hallway Outside Room 300
+You are in a hallway. To your north is a door labeled "Tiggery's Room", Room 300, and to your east there is a hallway, to your west is an elevator, and to your south is the dining room.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4668"></child>
+        </children>
+    </item>
+    <item nodeId="node-4668">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">(first opening Tiggery's door)
+
+Tiggery's Room
+You are in a bedroom with orange striped wallpaper, a bed, a couch, a desk, and tools hanging on the wall.
+
+Tiggery is making something with his tools.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4669"></child>
+        </children>
+    </item>
+    <item nodeId="node-4669">
+        <command xml:space="preserve">look</command>
+        <result xml:space="preserve">Tiggery's Room
+You are in a bedroom with orange striped wallpaper, a bed, a couch, a desk, and tools hanging on the wall.
+
+Tiggery is making something with his tools.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4670"></child>
+        </children>
+    </item>
+    <item nodeId="node-4670">
+        <command xml:space="preserve">look tools</command>
+        <result xml:space="preserve">Tiggery tells you that they are his special tools for making furniture.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4671"></child>
+        </children>
+    </item>
+    <item nodeId="node-4671">
+        <command xml:space="preserve">make furniture</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4672"></child>
+        </children>
+    </item>
+    <item nodeId="node-4672">
+        <command xml:space="preserve">take tools</command>
+        <result xml:space="preserve">That's hardly portable.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4673"></child>
+        </children>
+    </item>
+    <item nodeId="node-4673">
+        <command xml:space="preserve">talk to tiggery</command>
+        <result xml:space="preserve">(Tiggery) What's going on, Dave?
+(You) I lost my powers this morning!
+(Tiggery) That's not good! Swimmy probably already told you, but you need apparently 3 magic crystals.
+(You) I know!
+(Tiggery) Anyway, I don't have anything to help you with, sorry. If you could bring me some sushi that would be good though!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4674"></child>
+        </children>
+    </item>
+    <item nodeId="node-4674">
+        <command xml:space="preserve">talk to tiggery</command>
+        <result xml:space="preserve">(Tiggery) Sushi is the best! You can probably find some in the Dining Room.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4675"></child>
+        </children>
+    </item>
+    <item nodeId="node-4675">
+        <command xml:space="preserve">talk to tiggery</command>
+        <result xml:space="preserve">(Tiggery) Sushi is the best! You can probably find some in the Dining Room.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4676"></child>
+        </children>
+    </item>
+    <item nodeId="node-4676">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Hallway Outside Room 300
+You are in a hallway. To your north is a door labeled "Tiggery's Room", Room 300, and to your east there is a hallway, to your west is an elevator, and to your south is the dining room.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4677"></child>
+        </children>
+    </item>
+    <item nodeId="node-4677">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Dining Room
+You are in a large area with a bunch of round tables. To your north is a hallway, and to your west is a door to the pool.
+
+Orca is sitting at one of the tables.
+
+Fladibearius is sitting at another table.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4678"></child>
+        </children>
+    </item>
+    <item nodeId="node-4678">
+        <command xml:space="preserve">talk to orca</command>
+        <result xml:space="preserve">(Orca) Hi again! Do you need anything?
+(You) Could I have some sushi to take to Tiggery?
+(Orca) Sure! Here you go! Bye!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4679"></child>
+        </children>
+    </item>
+    <item nodeId="node-4679">
+        <command xml:space="preserve"></command>
+        <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4680"></child>
+        </children>
+    </item>
+    <item nodeId="node-4680">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Hallway Outside Room 300
+You are in a hallway. To your north is a door labeled "Tiggery's Room", Room 300, and to your east there is a hallway, to your west is an elevator, and to your south is the dining room.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4681"></child>
+        </children>
+    </item>
+    <item nodeId="node-4681">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Tiggery's Room
+You are in a bedroom with orange striped wallpaper, a bed, a couch, a desk, and tools hanging on the wall.
+
+Tiggery is making something with his tools.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4682"></child>
+        </children>
+    </item>
+    <item nodeId="node-4682">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4683"></child>
+        </children>
+    </item>
+    <item nodeId="node-4683">
+        <command xml:space="preserve">give sushi to tiggery</command>
+        <result xml:space="preserve">(Tiggery) Oh wow! Thank you!
+(Tiggery) I just realized, I can give you this Key. I don't know why you would want it, but here you go!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4684"></child>
+        </children>
+    </item>
+    <item nodeId="node-4684">
+        <command xml:space="preserve">i</command>
+        <result xml:space="preserve">You are carrying:
+  Small Key
+  Honey Cake
+  Floatie
+  Bucket
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4685"></child>
+        </children>
+    </item>
+    <item nodeId="node-4685">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Hallway Outside Room 300
+You are in a hallway. To your north is a door labeled "Tiggery's Room", Room 300, and to your east there is a hallway, to your west is an elevator, and to your south is the dining room.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4686"></child>
+        </children>
+    </item>
+    <item nodeId="node-4686">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Hallway Outside Room 301
+You are in a hallway. To your north is a door labeled "Orca's Room", Room 301, and to your west there is a hallway.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4687"></child>
+        </children>
+    </item>
+    <item nodeId="node-4687">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">(first opening Orca's door)
+It seems to be locked.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4688"></child>
+        </children>
+    </item>
+    <item nodeId="node-4688">
+        <command xml:space="preserve">unlock door</command>
+        <result xml:space="preserve">What do you want to unlock Orca's door with?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4689"></child>
+        </children>
+    </item>
+    <item nodeId="node-4689">
+        <command xml:space="preserve">unlock door with key</command>
+        <result xml:space="preserve">That doesn't seem to fit the lock.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4690"></child>
+        </children>
+    </item>
+    <item nodeId="node-4690">
+        <command xml:space="preserve">knock on door</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4691"></child>
+        </children>
+    </item>
+    <item nodeId="node-4691">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Hallway Outside Room 302
+You are in a hallway. To your north is a door labeled "Fladibearius' Room", Room 302, and to your west there is a hallway.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4692"></child>
+        </children>
+    </item>
+    <item nodeId="node-4692">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">(first opening Fladibearius' door)
+It seems to be locked.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4693"></child>
+        </children>
+    </item>
+    <item nodeId="node-4693">
+        <command xml:space="preserve">unlock door with key</command>
+        <result xml:space="preserve">That doesn't seem to fit the lock.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4694"></child>
+        </children>
+    </item>
+    <item nodeId="node-4694">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Hallway Outside Room 301
+You are in a hallway. To your north is a door labeled "Orca's Room", Room 301, and to your west there is a hallway.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4695"></child>
+        </children>
+    </item>
+    <item nodeId="node-4695">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Hallway Outside Room 300
+You are in a hallway. To your north is a door labeled "Tiggery's Room", Room 300, and to your east there is a hallway, to your west is an elevator, and to your south is the dining room.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4696"></child>
+        </children>
+    </item>
+    <item nodeId="node-4696">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Elevator Floor 3
+You are in an elevator room. The elevator can go down but not up. To your south is a door labeled "Pool", and to your east is a door labeled "Dining Room and Rooms".
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4697"></child>
+        </children>
+    </item>
+    <item nodeId="node-4697">
+        <command xml:space="preserve">d</command>
+        <result xml:space="preserve">
+Elevator Floor 2
+You are in an elevator room. The elevator can go up or down. To your east is a hallway.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4698"></child>
+        </children>
+    </item>
+    <item nodeId="node-4698">
+        <command xml:space="preserve">d</command>
+        <result xml:space="preserve">
+Elevator Floor 1
+You are in an elevator room. The elevator can go up but not down. To your east is a hallway, and to your south is a door labeled "Commons".
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4699"></child>
+        </children>
+    </item>
+    <item nodeId="node-4699">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Hallway Outside Room 100
+You are in a hallway. To your north is a door labeled "Bear Bear's Room", Room 100, and to your east there is a hallway, and to your west there is an elevator.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4700"></child>
+        </children>
+    </item>
+    <item nodeId="node-4700">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Hallway Outside Room 101
+You are in a hallway. To your north is a door labeled "Little Giraffe's Room", Room 101, and to your east and west there is more hallway.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4701"></child>
+        </children>
+    </item>
+    <item nodeId="node-4701">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Hallway Outside Room 102
+You are in a hallway. To your north is a door labeled "Big Giraffe's Room", Room 102, and to your east and west there a hallway.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4702"></child>
+        </children>
+    </item>
+    <item nodeId="node-4702">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Hallway Outside Room 103
+You are in a hallway. To your north is a door labeled "Kelp and Seaweed's Room", Room 103, and to your west there a hallway.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4703"></child>
+        </children>
+    </item>
+    <item nodeId="node-4703">
+        <command xml:space="preserve">north</command>
+        <result xml:space="preserve">(first opening Kelpweed's door)
+
+Kelpweed's room
+You are in a bedroom with ocean wallpaper, two beds, a couch, and a desk.
+
+Kelp is reading on the couch.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4704"></child>
+        </children>
+    </item>
+    <item nodeId="node-4704">
+        <command xml:space="preserve">talk to kelp</command>
+        <result xml:space="preserve">(Kelp) Hi Dave.
+(You) I lost my powers this morning! I need magic crystals!
+(Kelp) Oh no! Well, you're in luck, because I have a way to make magic crystals! The only problem is that I need river water, and I lost my bucket. Also, I forgot where the river is.
+(You) I'll get some river water for you!
+(Kelp) I will make a crystal for you then!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4705"></child>
+        </children>
+    </item>
+    <item nodeId="node-4705">
+        <command xml:space="preserve">i</command>
+        <result xml:space="preserve">You are carrying:
+  Small Key
+  Honey Cake
+  Floatie
+  Bucket
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4706"></child>
+        </children>
+    </item>
+    <item nodeId="node-4706">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Hallway Outside Room 103
+You are in a hallway. To your north is a door labeled "Kelp and Seaweed's Room", Room 103, and to your west there a hallway.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4707"></child>
+        </children>
+    </item>
+    <item nodeId="node-4707">
+        <command xml:space="preserve">look</command>
+        <result xml:space="preserve">Hallway Outside Room 103
+You are in a hallway. To your north is a door labeled "Kelp and Seaweed's Room", Room 103, and to your west there a hallway.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4708"></child>
+        </children>
+    </item>
+    <item nodeId="node-4708">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Kelpweed's room
+You are in a bedroom with ocean wallpaper, two beds, a couch, and a desk.
+
+Kelp is reading on the couch.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4709"></child>
+        </children>
+    </item>
+    <item nodeId="node-4709">
+        <command xml:space="preserve">look beds</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4710"></child>
+        </children>
+    </item>
+    <item nodeId="node-4710">
+        <command xml:space="preserve">look bed</command>
+        <result xml:space="preserve">A blue bed with pictures of seaweed (the plant, not the stuffie). Seaweed is buried under the covers snoring loudly.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4711"></child>
+        </children>
+    </item>
+    <item nodeId="node-4711">
+        <command xml:space="preserve">wake seaweed</command>
+        <result xml:space="preserve">He is fast asleep. It seems mean to wake him up.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4712"></child>
+        </children>
+    </item>
+    <item nodeId="node-4712">
+        <command xml:space="preserve">wake seaweed</command>
+        <result xml:space="preserve">He is fast asleep. It seems mean to wake him up.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4713"></child>
+        </children>
+    </item>
+    <item nodeId="node-4713">
+        <command xml:space="preserve">wake seaweed</command>
+        <result xml:space="preserve">He is fast asleep. It seems mean to wake him up.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4714"></child>
+        </children>
+    </item>
+    <item nodeId="node-4714">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Hallway Outside Room 103
+You are in a hallway. To your north is a door labeled "Kelp and Seaweed's Room", Room 103, and to your west there a hallway.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4715"></child>
+        </children>
+    </item>
+    <item nodeId="node-4715">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4716"></child>
+        </children>
+    </item>
+    <item nodeId="node-4716">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Hallway Outside Room 102
+You are in a hallway. To your north is a door labeled "Big Giraffe's Room", Room 102, and to your east and west there a hallway.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4717"></child>
+        </children>
+    </item>
+    <item nodeId="node-4717">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Hallway Outside Room 101
+You are in a hallway. To your north is a door labeled "Little Giraffe's Room", Room 101, and to your east and west there is more hallway.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4718"></child>
+        </children>
+    </item>
+    <item nodeId="node-4718">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Hallway Outside Room 100
+You are in a hallway. To your north is a door labeled "Bear Bear's Room", Room 100, and to your east there is a hallway, and to your west there is an elevator.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4719"></child>
+        </children>
+    </item>
+    <item nodeId="node-4719">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4720"></child>
+        </children>
+    </item>
+    <item nodeId="node-4720">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Elevator Floor 1
+You are in an elevator room. The elevator can go up but not down. To your east is a hallway, and to your south is a door labeled "Commons".
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4721"></child>
+        </children>
+    </item>
+    <item nodeId="node-4721">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Hallway Outside Room 100
+You are in a hallway. To your north is a door labeled "Bear Bear's Room", Room 100, and to your east there is a hallway, and to your west there is an elevator.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4722"></child>
+        </children>
+    </item>
+    <item nodeId="node-4722">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4723"></child>
+        </children>
+    </item>
+    <item nodeId="node-4723">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Elevator Floor 1
+You are in an elevator room. The elevator can go up but not down. To your east is a hallway, and to your south is a door labeled "Commons".
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4724"></child>
+        </children>
+    </item>
+    <item nodeId="node-4724">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Commons
+You are in a nicely furnished room with a fireplace and some couches and books on the shelf. To your north is the elevator, and to your east is the lobby.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4725"></child>
+        </children>
+    </item>
+    <item nodeId="node-4725">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4726"></child>
+        </children>
+    </item>
+    <item nodeId="node-4726">
+        <command xml:space="preserve">look fireplce</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4727"></child>
+        </children>
+    </item>
+    <item nodeId="node-4727">
+        <command xml:space="preserve">look fireplace</command>
+        <result xml:space="preserve">The firplace crackles warmly, and you feel better.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4728"></child>
+        </children>
+    </item>
+    <item nodeId="node-4728">
+        <command xml:space="preserve">look books</command>
+        <result xml:space="preserve">The books are mostly about SPICH, and some are about stuffie planet.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4729"></child>
+        </children>
+    </item>
+    <item nodeId="node-4729">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Lobby
+You are in a entrance lobby. To your west is the commons, and to your south is the exit into the land of Lhivhingrum. For some reason, no one is at the check-in desk. There is a sign on the wall.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4730"></child>
+        </children>
+    </item>
+    <item nodeId="node-4730">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4731"></child>
+        </children>
+    </item>
+    <item nodeId="node-4731">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+North Plains of Car Pet
+You are in a desolate wasteland, and the ground is striped with red and white. To your south the plains continue, to your west is Mount Pyanno, and to your north is the entrance to SPICH.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4732"></child>
+        </children>
+    </item>
+    <item nodeId="node-4732">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4733"></child>
+        </children>
+    </item>
+    <item nodeId="node-4733">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+South Plains of Car Pet
+You are in a desolate wasteland, and the ground is striped with red and white. To your north the plains continue, to your east is the Hills of Kauch and to your south is the enourmous Bukshelv Cliff.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4734"></child>
+        </children>
+    </item>
+    <item nodeId="node-4734">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Lower Central Bukshelv Cliff
+You are at the base of the most enormous cliff imaginable. It is so steep, how on earth can you get up there? The base of the cliff stretches on to your east and west, to your south is the Plains of Car Pet.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4735"></child>
+        </children>
+    </item>
+    <item nodeId="node-4735">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4736"></child>
+        </children>
+    </item>
+    <item nodeId="node-4736">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Lower West Bukshelv Cliff
+You are at the base of the most enormous cliff imaginable. It is so steep, how on earth can you get up there? The base of the cliff stretches on to your east.
+
+You see a giant bull who seems to enjoy sitting at the base of this majestic cliff.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4737"></child>
+        </children>
+    </item>
+    <item nodeId="node-4737">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4738"></child>
+        </children>
+    </item>
+    <item nodeId="node-4738">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4739"></child>
+        </children>
+    </item>
+    <item nodeId="node-4739">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Lower Central Bukshelv Cliff
+You are at the base of the most enormous cliff imaginable. It is so steep, how on earth can you get up there? The base of the cliff stretches on to your east and west, to your south is the Plains of Car Pet.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4740"></child>
+        </children>
+    </item>
+    <item nodeId="node-4740">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+South Plains of Car Pet
+You are in a desolate wasteland, and the ground is striped with red and white. To your north the plains continue, to your east is the Hills of Kauch and to your south is the enourmous Bukshelv Cliff.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4741"></child>
+        </children>
+    </item>
+    <item nodeId="node-4741">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4742"></child>
+        </children>
+    </item>
+    <item nodeId="node-4742">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Hills of Kauch
+You are on some navy blue hills, with the Kauch River flowing through, and to your east is a view that seems to go on forever. To your west is the South Plains of Car Pet.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4743"></child>
+        </children>
+    </item>
+    <item nodeId="node-4743">
+        <command xml:space="preserve">look river</command>
+        <result xml:space="preserve">(Kauch River)
+The Kauch River stretches across, flowing quickly down towards the base of Bukshelv Cliff.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4744"></child>
+        </children>
+    </item>
+    <item nodeId="node-4744">
+        <command xml:space="preserve">fill bucket</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4745"></child>
+        </children>
+    </item>
+    <item nodeId="node-4745">
+        <command xml:space="preserve">use bucket</command>
+        <result xml:space="preserve">(Bucket)
+You fill the Bucket with water from the river.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4746"></child>
+        </children>
+    </item>
+    <item nodeId="node-4746">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+South Plains of Car Pet
+You are in a desolate wasteland, and the ground is striped with red and white. To your north the plains continue, to your east is the Hills of Kauch and to your south is the enourmous Bukshelv Cliff.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4747"></child>
+        </children>
+    </item>
+    <item nodeId="node-4747">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+North Plains of Car Pet
+You are in a desolate wasteland, and the ground is striped with red and white. To your south the plains continue, to your west is Mount Pyanno, and to your north is the entrance to SPICH.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4748"></child>
+        </children>
+    </item>
+    <item nodeId="node-4748">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Lobby
+You are in a entrance lobby. To your west is the commons, and to your south is the exit into the land of Lhivhingrum. For some reason, no one is at the check-in desk. There is a sign on the wall.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4749"></child>
+        </children>
+    </item>
+    <item nodeId="node-4749">
+        <command xml:space="preserve">look</command>
+        <result xml:space="preserve">Lobby
+You are in a entrance lobby. To your west is the commons, and to your south is the exit into the land of Lhivhingrum. For some reason, no one is at the check-in desk. There is a sign on the wall.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4750"></child>
+        </children>
+    </item>
+    <item nodeId="node-4750">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Commons
+You are in a nicely furnished room with a fireplace and some couches and books on the shelf. To your north is the elevator, and to your east is the lobby.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4751"></child>
+        </children>
+    </item>
+    <item nodeId="node-4751">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Elevator Floor 1
+You are in an elevator room. The elevator can go up but not down. To your east is a hallway, and to your south is a door labeled "Commons".
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4752"></child>
+        </children>
+    </item>
+    <item nodeId="node-4752">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Hallway Outside Room 100
+You are in a hallway. To your north is a door labeled "Bear Bear's Room", Room 100, and to your east there is a hallway, and to your west there is an elevator.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4753"></child>
+        </children>
+    </item>
+    <item nodeId="node-4753">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Hallway Outside Room 101
+You are in a hallway. To your north is a door labeled "Little Giraffe's Room", Room 101, and to your east and west there is more hallway.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4754"></child>
+        </children>
+    </item>
+    <item nodeId="node-4754">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Hallway Outside Room 102
+You are in a hallway. To your north is a door labeled "Big Giraffe's Room", Room 102, and to your east and west there a hallway.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4755"></child>
+        </children>
+    </item>
+    <item nodeId="node-4755">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Hallway Outside Room 101
+You are in a hallway. To your north is a door labeled "Little Giraffe's Room", Room 101, and to your east and west there is more hallway.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4756"></child>
+        </children>
+    </item>
+    <item nodeId="node-4756">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Hallway Outside Room 100
+You are in a hallway. To your north is a door labeled "Bear Bear's Room", Room 100, and to your east there is a hallway, and to your west there is an elevator.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4757"></child>
+        </children>
+    </item>
+    <item nodeId="node-4757">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Hallway Outside Room 101
+You are in a hallway. To your north is a door labeled "Little Giraffe's Room", Room 101, and to your east and west there is more hallway.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4758"></child>
+        </children>
+    </item>
+    <item nodeId="node-4758">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Hallway Outside Room 102
+You are in a hallway. To your north is a door labeled "Big Giraffe's Room", Room 102, and to your east and west there a hallway.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4759"></child>
+        </children>
+    </item>
+    <item nodeId="node-4759">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Hallway Outside Room 103
+You are in a hallway. To your north is a door labeled "Kelp and Seaweed's Room", Room 103, and to your west there a hallway.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4760"></child>
+        </children>
+    </item>
+    <item nodeId="node-4760">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4761"></child>
+        </children>
+    </item>
+    <item nodeId="node-4761">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Kelpweed's room
+You are in a bedroom with ocean wallpaper, two beds, a couch, and a desk.
+
+Kelp is reading on the couch.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4762"></child>
+        </children>
+    </item>
+    <item nodeId="node-4762">
+        <command xml:space="preserve">give water to kelp</command>
+        <result xml:space="preserve">(Kelp) Oh, you found it! Nice.
+Kelp puts it in a pot with a bunch of other ingredients, and it bubbles and pops.
+(Kelp) Here you go!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4763"></child>
+        </children>
+    </item>
+    <item nodeId="node-4763">
+        <command xml:space="preserve">i</command>
+        <result xml:space="preserve">You are carrying:
+  Green Magic Crystal
+  Small Key
+  Honey Cake
+  Floatie
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4764"></child>
+        </children>
+    </item>
+    <item nodeId="node-4764">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4765"></child>
+        </children>
+    </item>
+    <item nodeId="node-4765">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Hallway Outside Room 103
+You are in a hallway. To your north is a door labeled "Kelp and Seaweed's Room", Room 103, and to your west there a hallway.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4766"></child>
+        </children>
+    </item>
+    <item nodeId="node-4766">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Hallway Outside Room 102
+You are in a hallway. To your north is a door labeled "Big Giraffe's Room", Room 102, and to your east and west there a hallway.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4767"></child>
+        </children>
+    </item>
+    <item nodeId="node-4767">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Hallway Outside Room 101
+You are in a hallway. To your north is a door labeled "Little Giraffe's Room", Room 101, and to your east and west there is more hallway.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4768"></child>
+        </children>
+    </item>
+    <item nodeId="node-4768">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Hallway Outside Room 100
+You are in a hallway. To your north is a door labeled "Bear Bear's Room", Room 100, and to your east there is a hallway, and to your west there is an elevator.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4769"></child>
+        </children>
+    </item>
+    <item nodeId="node-4769">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Elevator Floor 1
+You are in an elevator room. The elevator can go up but not down. To your east is a hallway, and to your south is a door labeled "Commons".
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4770"></child>
+        </children>
+    </item>
+    <item nodeId="node-4770">
+        <command xml:space="preserve">u</command>
+        <result xml:space="preserve">
+Elevator Floor 2
+You are in an elevator room. The elevator can go up or down. To your east is a hallway.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4771"></child>
+        </children>
+    </item>
+    <item nodeId="node-4771">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Hallway Outside Room 200
+You are in a hallway. To your north is a door labeled "Sylvia's room", Room 200, and to your east there is a hallway, and to your west there is an elevator.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4772"></child>
+        </children>
+    </item>
+    <item nodeId="node-4772">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">(first opening Sylvia's door)
+It seems to be locked.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4773"></child>
+        </children>
+    </item>
+    <item nodeId="node-4773">
+        <command xml:space="preserve">unlock door with key</command>
+        <result xml:space="preserve">You unlock Sylvia's door.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4774"></child>
+        </children>
+    </item>
+    <item nodeId="node-4774">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">(first opening Sylvia's door)
+
+Sylvia's Room
+You are in a pink bedroom with a bed and a closet, and an oven that smells like chocolate cake. To your south is the exit.
+
+Sylvia is snoring loudly on the bed.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4775"></child>
+        </children>
+    </item>
+    <item nodeId="node-4775">
+        <command xml:space="preserve">look</command>
+        <result xml:space="preserve">Sylvia's Room
+You are in a pink bedroom with a bed and a closet, and an oven that smells like chocolate cake. To your south is the exit.
+
+Sylvia is snoring loudly on the bed.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4776"></child>
+        </children>
+    </item>
+    <item nodeId="node-4776">
+        <command xml:space="preserve">wake sylvia</command>
+        <result xml:space="preserve">Sylvia wakes up.
+(Sylvia) What is going on???
+(You) I lost all of my powers! Do you have a magic crystal?
+(Sylvia) Yes, but I will give you one only if you bring me chocolate.
+
+Sylvia fell asleep again.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4777"></child>
+        </children>
+    </item>
+    <item nodeId="node-4777">
+        <command xml:space="preserve">wake sylvia</command>
+        <result xml:space="preserve">(Sylvia) STOP IT DAVE!!!
+
+Sylvia fell asleep again.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4778"></child>
+        </children>
+    </item>
+    <item nodeId="node-4778">
+        <command xml:space="preserve">wake sylvia</command>
+        <result xml:space="preserve">(Sylvia) STOP IT DAVE!!!
+
+Sylvia fell asleep again.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4779"></child>
+        </children>
+    </item>
+    <item nodeId="node-4779">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Hallway Outside Room 200
+You are in a hallway. To your north is a door labeled "Sylvia's room", Room 200, and to your east there is a hallway, and to your west there is an elevator.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4780"></child>
+        </children>
+    </item>
+    <item nodeId="node-4780">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Hallway Outside Dave's Room
+You are in a hallway. To your north is a door labeled "Dave's room", Room 201, and to your east and west the hallway continues.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4781"></child>
+        </children>
+    </item>
+    <item nodeId="node-4781">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Hallway Outside Room 200
+You are in a hallway. To your north is a door labeled "Sylvia's room", Room 200, and to your east there is a hallway, and to your west there is an elevator.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4782"></child>
+        </children>
+    </item>
+    <item nodeId="node-4782">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Elevator Floor 2
+You are in an elevator room. The elevator can go up or down. To your east is a hallway.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4783"></child>
+        </children>
+    </item>
+    <item nodeId="node-4783">
+        <command xml:space="preserve">u</command>
+        <result xml:space="preserve">
+Elevator Floor 3
+You are in an elevator room. The elevator can go down but not up. To your south is a door labeled "Pool", and to your east is a door labeled "Dining Room and Rooms".
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4784"></child>
+        </children>
+    </item>
+    <item nodeId="node-4784">
+        <command xml:space="preserve">look</command>
+        <result xml:space="preserve">Elevator Floor 3
+You are in an elevator room. The elevator can go down but not up. To your south is a door labeled "Pool", and to your east is a door labeled "Dining Room and Rooms".
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4785"></child>
+        </children>
+    </item>
+    <item nodeId="node-4785">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Outdoor Balcony
+A large balcony. To the east is the Dining Room, and to the North is the Elevator.
+
+You can see a Pool here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4786"></child>
+        </children>
+    </item>
+    <item nodeId="node-4786">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Dining Room
+You are in a large area with a bunch of round tables. To your north is a hallway, and to your west is a door to the pool.
+
+Orca is sitting at one of the tables.
+
+Fladibearius is sitting at another table.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4787"></child>
+        </children>
+    </item>
+    <item nodeId="node-4787">
+        <command xml:space="preserve">look</command>
+        <result xml:space="preserve">Dining Room
+You are in a large area with a bunch of round tables. To your north is a hallway, and to your west is a door to the pool.
+
+Orca is sitting at one of the tables.
+
+Fladibearius is sitting at another table.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4788"></child>
+        </children>
+    </item>
+    <item nodeId="node-4788">
+        <command xml:space="preserve">talk to orca</command>
+        <result xml:space="preserve">(Orca) Hi again! Do you need anything?
+(You) Could I have some sushi to take to Tiggery?
+(Orca) Sure! Here you go! Bye!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4789"></child>
+        </children>
+    </item>
+    <item nodeId="node-4789">
+        <command xml:space="preserve">i</command>
+        <result xml:space="preserve">You are carrying:
+  Sushi
+  Green Magic Crystal
+  Small Key
+  Honey Cake
+  Floatie
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4790"></child>
+        </children>
+    </item>
+    <item nodeId="node-4790">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Hallway Outside Room 300
+You are in a hallway. To your north is a door labeled "Tiggery's Room", Room 300, and to your east there is a hallway, to your west is an elevator, and to your south is the dining room.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4791"></child>
+        </children>
+    </item>
+    <item nodeId="node-4791">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Hallway Outside Room 301
+You are in a hallway. To your north is a door labeled "Orca's Room", Room 301, and to your west there is a hallway.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4792"></child>
+        </children>
+    </item>
+    <item nodeId="node-4792">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">(first opening Orca's door)
+It seems to be locked.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4793"></child>
+        </children>
+    </item>
+    <item nodeId="node-4793">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Hallway Outside Room 300
+You are in a hallway. To your north is a door labeled "Tiggery's Room", Room 300, and to your east there is a hallway, to your west is an elevator, and to your south is the dining room.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4794"></child>
+        </children>
+    </item>
+    <item nodeId="node-4794">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Tiggery's Room
+You are in a bedroom with orange striped wallpaper, a bed, a couch, a desk, and tools hanging on the wall.
+
+Tiggery is making something with his tools.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4795"></child>
+        </children>
+    </item>
+    <item nodeId="node-4795">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Hallway Outside Room 300
+You are in a hallway. To your north is a door labeled "Tiggery's Room", Room 300, and to your east there is a hallway, to your west is an elevator, and to your south is the dining room.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4796"></child>
+        </children>
+    </item>
+    <item nodeId="node-4796">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Elevator Floor 3
+You are in an elevator room. The elevator can go down but not up. To your south is a door labeled "Pool", and to your east is a door labeled "Dining Room and Rooms".
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4797"></child>
+        </children>
+    </item>
+    <item nodeId="node-4797">
+        <command xml:space="preserve">d</command>
+        <result xml:space="preserve">
+Elevator Floor 2
+You are in an elevator room. The elevator can go up or down. To your east is a hallway.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4798"></child>
+        </children>
+    </item>
+    <item nodeId="node-4798">
+        <command xml:space="preserve">u</command>
+        <result xml:space="preserve">
+Elevator Floor 3
+You are in an elevator room. The elevator can go down but not up. To your south is a door labeled "Pool", and to your east is a door labeled "Dining Room and Rooms".
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4799"></child>
+        </children>
+    </item>
+    <item nodeId="node-4799">
+        <command xml:space="preserve">d</command>
+        <result xml:space="preserve">
+Elevator Floor 2
+You are in an elevator room. The elevator can go up or down. To your east is a hallway.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4800"></child>
+        </children>
+    </item>
+    <item nodeId="node-4800">
+        <command xml:space="preserve">d</command>
+        <result xml:space="preserve">
+Elevator Floor 1
+You are in an elevator room. The elevator can go up but not down. To your east is a hallway, and to your south is a door labeled "Commons".
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4801"></child>
+        </children>
+    </item>
+    <item nodeId="node-4801">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Hallway Outside Room 100
+You are in a hallway. To your north is a door labeled "Bear Bear's Room", Room 100, and to your east there is a hallway, and to your west there is an elevator.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4802"></child>
+        </children>
+    </item>
+    <item nodeId="node-4802">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+BearBear's room
+You are in a bedroom with honey wallpaper, a bed, a couch, a TV, and a bunch of books on top of a shelf.
+
+Bear Bear is sitting on the couch watching basketball.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4803"></child>
+        </children>
+    </item>
+    <item nodeId="node-4803">
+        <command xml:space="preserve">talk to bear bear</command>
+        <result xml:space="preserve">(Bear Bear) I want some cake!
+
+Bear Bear yells at the TV.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4804"></child>
+        </children>
+    </item>
+    <item nodeId="node-4804">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Hallway Outside Room 100
+You are in a hallway. To your north is a door labeled "Bear Bear's Room", Room 100, and to your east there is a hallway, and to your west there is an elevator.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4805"></child>
+        </children>
+    </item>
+    <item nodeId="node-4805">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Hallway Outside Room 101
+You are in a hallway. To your north is a door labeled "Little Giraffe's Room", Room 101, and to your east and west there is more hallway.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4806"></child>
+        </children>
+    </item>
+    <item nodeId="node-4806">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Hallway Outside Room 100
+You are in a hallway. To your north is a door labeled "Bear Bear's Room", Room 100, and to your east there is a hallway, and to your west there is an elevator.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4807"></child>
+        </children>
+    </item>
+    <item nodeId="node-4807">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+BearBear's room
+You are in a bedroom with honey wallpaper, a bed, a couch, a TV, and a bunch of books on top of a shelf.
+
+Bear Bear is sitting on the couch watching basketball.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4808"></child>
+        </children>
+    </item>
+    <item nodeId="node-4808">
+        <command xml:space="preserve">give cake to bear</command>
+        <result xml:space="preserve">(Bear Bear) Oh wow! Thank you!
+(Bear Bear) Thanks! Hmm, what can I give you? Oh! I have some M&amp;Ms. Here you go!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4809"></child>
+        </children>
+    </item>
+    <item nodeId="node-4809">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Hallway Outside Room 100
+You are in a hallway. To your north is a door labeled "Bear Bear's Room", Room 100, and to your east there is a hallway, and to your west there is an elevator.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4810"></child>
+        </children>
+    </item>
+    <item nodeId="node-4810">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Elevator Floor 1
+You are in an elevator room. The elevator can go up but not down. To your east is a hallway, and to your south is a door labeled "Commons".
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4811"></child>
+        </children>
+    </item>
+    <item nodeId="node-4811">
+        <command xml:space="preserve">u</command>
+        <result xml:space="preserve">
+Elevator Floor 2
+You are in an elevator room. The elevator can go up or down. To your east is a hallway.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4812"></child>
+        </children>
+    </item>
+    <item nodeId="node-4812">
+        <command xml:space="preserve">u</command>
+        <result xml:space="preserve">
+Elevator Floor 3
+You are in an elevator room. The elevator can go down but not up. To your south is a door labeled "Pool", and to your east is a door labeled "Dining Room and Rooms".
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4813"></child>
+        </children>
+    </item>
+    <item nodeId="node-4813">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Hallway Outside Room 300
+You are in a hallway. To your north is a door labeled "Tiggery's Room", Room 300, and to your east there is a hallway, to your west is an elevator, and to your south is the dining room.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4814"></child>
+        </children>
+    </item>
+    <item nodeId="node-4814">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Hallway Outside Room 301
+You are in a hallway. To your north is a door labeled "Orca's Room", Room 301, and to your west there is a hallway.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4815"></child>
+        </children>
+    </item>
+    <item nodeId="node-4815">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">(first opening Orca's door)
+It seems to be locked.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4816"></child>
+        </children>
+    </item>
+    <item nodeId="node-4816">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Hallway Outside Room 300
+You are in a hallway. To your north is a door labeled "Tiggery's Room", Room 300, and to your east there is a hallway, to your west is an elevator, and to your south is the dining room.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4817"></child>
+        </children>
+    </item>
+    <item nodeId="node-4817">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Tiggery's Room
+You are in a bedroom with orange striped wallpaper, a bed, a couch, a desk, and tools hanging on the wall.
+
+Tiggery is making something with his tools.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4818"></child>
+        </children>
+    </item>
+    <item nodeId="node-4818">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Hallway Outside Room 300
+You are in a hallway. To your north is a door labeled "Tiggery's Room", Room 300, and to your east there is a hallway, to your west is an elevator, and to your south is the dining room.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4819"></child>
+        </children>
+    </item>
+    <item nodeId="node-4819">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Elevator Floor 3
+You are in an elevator room. The elevator can go down but not up. To your south is a door labeled "Pool", and to your east is a door labeled "Dining Room and Rooms".
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4820"></child>
+        </children>
+    </item>
+    <item nodeId="node-4820">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Outdoor Balcony
+A large balcony. To the east is the Dining Room, and to the North is the Elevator.
+
+You can see a Pool here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4821"></child>
+        </children>
+    </item>
+    <item nodeId="node-4821">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Dining Room
+You are in a large area with a bunch of round tables. To your north is a hallway, and to your west is a door to the pool.
+
+Orca is sitting at one of the tables.
+
+Fladibearius is sitting at another table.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4822"></child>
+        </children>
+    </item>
+    <item nodeId="node-4822">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Hallway Outside Room 300
+You are in a hallway. To your north is a door labeled "Tiggery's Room", Room 300, and to your east there is a hallway, to your west is an elevator, and to your south is the dining room.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4823"></child>
+        </children>
+    </item>
+    <item nodeId="node-4823">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Elevator Floor 3
+You are in an elevator room. The elevator can go down but not up. To your south is a door labeled "Pool", and to your east is a door labeled "Dining Room and Rooms".
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4824"></child>
+        </children>
+    </item>
+    <item nodeId="node-4824">
+        <command xml:space="preserve">d</command>
+        <result xml:space="preserve">
+Elevator Floor 2
+You are in an elevator room. The elevator can go up or down. To your east is a hallway.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4825"></child>
+        </children>
+    </item>
+    <item nodeId="node-4825">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Hallway Outside Room 200
+You are in a hallway. To your north is a door labeled "Sylvia's room", Room 200, and to your east there is a hallway, and to your west there is an elevator.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4826"></child>
+        </children>
+    </item>
+    <item nodeId="node-4826">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Sylvia's Room
+You are in a pink bedroom with a bed and a closet, and an oven that smells like chocolate cake. To your south is the exit.
+
+Sylvia is yet again asleep.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4827"></child>
+        </children>
+    </item>
+    <item nodeId="node-4827">
+        <command xml:space="preserve">wake sylvia</command>
+        <result xml:space="preserve">(Sylvia) STOP IT DAVE!!!
+
+Sylvia fell asleep again.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4828"></child>
+        </children>
+    </item>
+    <item nodeId="node-4828">
+        <command xml:space="preserve">give chocolate to sylvia</command>
+        <result xml:space="preserve">(Sylvia) Hmmmmmm? Oh, CHOCOLATE!!!!!!
+(Sylvia) Ok, I guess I should give you your magic crystal now.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4829"></child>
+        </children>
+    </item>
+    <item nodeId="node-4829">
+        <command xml:space="preserve">i</command>
+        <result xml:space="preserve">You are carrying:
+  Pink Magic Crystal
+  Sushi
+  Green Magic Crystal
+  Small Key
+  Floatie
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4830"></child>
+        </children>
+    </item>
+    <item nodeId="node-4830">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Hallway Outside Room 200
+You are in a hallway. To your north is a door labeled "Sylvia's room", Room 200, and to your east there is a hallway, and to your west there is an elevator.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4831"></child>
+        </children>
+    </item>
+    <item nodeId="node-4831">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Hallway Outside Dave's Room
+You are in a hallway. To your north is a door labeled "Dave's room", Room 201, and to your east and west the hallway continues.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4832"></child>
+        </children>
+    </item>
+    <item nodeId="node-4832">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Dave's Bedroom
+You are in a small bedroom with a bed and a closet. To your south is the exit.
+
+You can see a Closet (empty) here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4833"></child>
+        </children>
+    </item>
+    <item nodeId="node-4833">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Hallway Outside Dave's Room
+You are in a hallway. To your north is a door labeled "Dave's room", Room 201, and to your east and west the hallway continues.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4834"></child>
+        </children>
+    </item>
+    <item nodeId="node-4834">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Hallway Outside Room 202
+You are in a hallway. To your north is a door labeled "Swimmy's Room", Room 202, and to your west there is a hallway.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4835"></child>
+        </children>
+    </item>
+    <item nodeId="node-4835">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Swimmy's room
+You are in a bedroom with ocean wallpaper, a bed, a couch, and a bunch of tools on top of a desk.
+
+Swimmy is sitting on the couch reading a book.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4836"></child>
+        </children>
+    </item>
+    <item nodeId="node-4836">
+        <command xml:space="preserve">talk to swimmy</command>
+        <result xml:space="preserve">(Swimmy) Good luck Dave!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4837"></child>
+        </children>
+    </item>
+    <item nodeId="node-4837">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Hallway Outside Room 202
+You are in a hallway. To your north is a door labeled "Swimmy's Room", Room 202, and to your west there is a hallway.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4838"></child>
+        </children>
+    </item>
+    <item nodeId="node-4838">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4839"></child>
+        </children>
+    </item>
+    <item nodeId="node-4839">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Hallway Outside Dave's Room
+You are in a hallway. To your north is a door labeled "Dave's room", Room 201, and to your east and west the hallway continues.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4840"></child>
+        </children>
+    </item>
+    <item nodeId="node-4840">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Hallway Outside Room 200
+You are in a hallway. To your north is a door labeled "Sylvia's room", Room 200, and to your east there is a hallway, and to your west there is an elevator.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4841"></child>
+        </children>
+    </item>
+    <item nodeId="node-4841">
+        <command xml:space="preserve"></command>
+        <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4842"></child>
+        </children>
+    </item>
+    <item nodeId="node-4842">
+        <command xml:space="preserve">i</command>
+        <result xml:space="preserve">You are carrying:
+  Pink Magic Crystal
+  Sushi
+  Green Magic Crystal
+  Small Key
+  Floatie
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4843"></child>
+        </children>
+    </item>
+    <item nodeId="node-4843">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4844"></child>
+        </children>
+    </item>
+    <item nodeId="node-4844">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Elevator Floor 2
+You are in an elevator room. The elevator can go up or down. To your east is a hallway.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4845"></child>
+        </children>
+    </item>
+    <item nodeId="node-4845">
+        <command xml:space="preserve">u</command>
+        <result xml:space="preserve">
+Elevator Floor 3
+You are in an elevator room. The elevator can go down but not up. To your south is a door labeled "Pool", and to your east is a door labeled "Dining Room and Rooms".
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4846"></child>
+        </children>
+    </item>
+    <item nodeId="node-4846">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Outdoor Balcony
+A large balcony. To the east is the Dining Room, and to the North is the Elevator.
+
+You can see a Pool here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4847"></child>
+        </children>
+    </item>
+    <item nodeId="node-4847">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Dining Room
+You are in a large area with a bunch of round tables. To your north is a hallway, and to your west is a door to the pool.
+
+Orca is sitting at one of the tables.
+
+Fladibearius is sitting at another table.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4848"></child>
+        </children>
+    </item>
+    <item nodeId="node-4848">
+        <command xml:space="preserve">give floatie to orca</command>
+        <result xml:space="preserve">Orca doesn't seem interested.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4849"></child>
+        </children>
+    </item>
+    <item nodeId="node-4849">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Hallway Outside Room 300
+You are in a hallway. To your north is a door labeled "Tiggery's Room", Room 300, and to your east there is a hallway, to your west is an elevator, and to your south is the dining room.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4850"></child>
+        </children>
+    </item>
+    <item nodeId="node-4850">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Hallway Outside Room 301
+You are in a hallway. To your north is a door labeled "Orca's Room", Room 301, and to your west there is a hallway.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4851"></child>
+        </children>
+    </item>
+    <item nodeId="node-4851">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Hallway Outside Room 302
+You are in a hallway. To your north is a door labeled "Fladibearius' Room", Room 302, and to your west there is a hallway.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4852"></child>
+        </children>
+    </item>
+    <item nodeId="node-4852">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">(first opening Fladibearius' door)
+It seems to be locked.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4853"></child>
+        </children>
+    </item>
+    <item nodeId="node-4853">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Hallway Outside Room 301
+You are in a hallway. To your north is a door labeled "Orca's Room", Room 301, and to your west there is a hallway.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4854"></child>
+        </children>
+    </item>
+    <item nodeId="node-4854">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Hallway Outside Room 300
+You are in a hallway. To your north is a door labeled "Tiggery's Room", Room 300, and to your east there is a hallway, to your west is an elevator, and to your south is the dining room.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4855"></child>
+        </children>
+    </item>
+    <item nodeId="node-4855">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Elevator Floor 3
+You are in an elevator room. The elevator can go down but not up. To your south is a door labeled "Pool", and to your east is a door labeled "Dining Room and Rooms".
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4856"></child>
+        </children>
+    </item>
+    <item nodeId="node-4856">
+        <command xml:space="preserve">d</command>
+        <result xml:space="preserve">
+Elevator Floor 2
+You are in an elevator room. The elevator can go up or down. To your east is a hallway.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4857"></child>
+        </children>
+    </item>
+    <item nodeId="node-4857">
+        <command xml:space="preserve">d</command>
+        <result xml:space="preserve">
+Elevator Floor 1
+You are in an elevator room. The elevator can go up but not down. To your east is a hallway, and to your south is a door labeled "Commons".
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4858"></child>
+        </children>
+    </item>
+    <item nodeId="node-4858">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Hallway Outside Room 100
+You are in a hallway. To your north is a door labeled "Bear Bear's Room", Room 100, and to your east there is a hallway, and to your west there is an elevator.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4859"></child>
+        </children>
+    </item>
+    <item nodeId="node-4859">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Hallway Outside Room 101
+You are in a hallway. To your north is a door labeled "Little Giraffe's Room", Room 101, and to your east and west there is more hallway.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4860"></child>
+        </children>
+    </item>
+    <item nodeId="node-4860">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Hallway Outside Room 102
+You are in a hallway. To your north is a door labeled "Big Giraffe's Room", Room 102, and to your east and west there a hallway.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4861"></child>
+        </children>
+    </item>
+    <item nodeId="node-4861">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Big Giraffe's room
+You are in a bedroom with grassy wallpaper, a bed, a couch, and photos on the wall.
+
+Big Giraffe is sewing something.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4862"></child>
+        </children>
+    </item>
+    <item nodeId="node-4862">
+        <command xml:space="preserve">talk to big</command>
+        <result xml:space="preserve">(Big Giraffe)
+Try talking to Little Giraffe.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4863"></child>
+        </children>
+    </item>
+    <item nodeId="node-4863">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Hallway Outside Room 102
+You are in a hallway. To your north is a door labeled "Big Giraffe's Room", Room 102, and to your east and west there a hallway.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4864"></child>
+        </children>
+    </item>
+    <item nodeId="node-4864">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Hallway Outside Room 101
+You are in a hallway. To your north is a door labeled "Little Giraffe's Room", Room 101, and to your east and west there is more hallway.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4865"></child>
+        </children>
+    </item>
+    <item nodeId="node-4865">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Little Giraffe's room
+You are in a bedroom with grassy wallpaper, a bed, a couch, and a desk.
+
+Little Giraffe is sitting on the couch watching TV.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4866"></child>
+        </children>
+    </item>
+    <item nodeId="node-4866">
+        <command xml:space="preserve">talk to little</command>
+        <result xml:space="preserve">(Little Giraffe)
+(Little Giraffe) I hope you find it!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4867"></child>
+        </children>
+    </item>
+    <item nodeId="node-4867">
+        <command xml:space="preserve">give floatie to little</command>
+        <result xml:space="preserve">(Little Giraffe)
+(Little Giraffe) Thanks! Where was it?
+(You) It was at the pool, obviously.
+(Little Giraffe) Oh. Well, you can have this pogo stick!
+
+ Little Giraffe cheers at something on the TV. 
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4868"></child>
+        </children>
+    </item>
+    <item nodeId="node-4868">
+        <command xml:space="preserve">i</command>
+        <result xml:space="preserve">You are carrying:
+  Pogo Stick
+  Pink Magic Crystal
+  Sushi
+  Green Magic Crystal
+  Small Key
+
+ A loud explosion comes from the TV. 
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4869"></child>
+        </children>
+    </item>
+    <item nodeId="node-4869">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Hallway Outside Room 101
+You are in a hallway. To your north is a door labeled "Little Giraffe's Room", Room 101, and to your east and west there is more hallway.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4870"></child>
+        </children>
+    </item>
+    <item nodeId="node-4870">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Hallway Outside Room 100
+You are in a hallway. To your north is a door labeled "Bear Bear's Room", Room 100, and to your east there is a hallway, and to your west there is an elevator.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4871"></child>
+        </children>
+    </item>
+    <item nodeId="node-4871">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4872"></child>
+        </children>
+    </item>
+    <item nodeId="node-4872">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Hallway Outside Room 101
+You are in a hallway. To your north is a door labeled "Little Giraffe's Room", Room 101, and to your east and west there is more hallway.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4873"></child>
+        </children>
+    </item>
+    <item nodeId="node-4873">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Hallway Outside Room 100
+You are in a hallway. To your north is a door labeled "Bear Bear's Room", Room 100, and to your east there is a hallway, and to your west there is an elevator.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4874"></child>
+        </children>
+    </item>
+    <item nodeId="node-4874">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Elevator Floor 1
+You are in an elevator room. The elevator can go up but not down. To your east is a hallway, and to your south is a door labeled "Commons".
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4875"></child>
+        </children>
+    </item>
+    <item nodeId="node-4875">
+        <command xml:space="preserve"></command>
+        <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4876"></child>
+        </children>
+    </item>
+    <item nodeId="node-4876">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Commons
+You are in a nicely furnished room with a fireplace and some couches and books on the shelf. To your north is the elevator, and to your east is the lobby.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4877"></child>
+        </children>
+    </item>
+    <item nodeId="node-4877">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Lobby
+You are in a entrance lobby. To your west is the commons, and to your south is the exit into the land of Lhivhingrum. For some reason, no one is at the check-in desk. There is a sign on the wall.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4878"></child>
+        </children>
+    </item>
+    <item nodeId="node-4878">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+North Plains of Car Pet
+You are in a desolate wasteland, and the ground is striped with red and white. To your south the plains continue, to your west is Mount Pyanno, and to your north is the entrance to SPICH.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4879"></child>
+        </children>
+    </item>
+    <item nodeId="node-4879">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+South Plains of Car Pet
+You are in a desolate wasteland, and the ground is striped with red and white. To your north the plains continue, to your east is the Hills of Kauch and to your south is the enourmous Bukshelv Cliff.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4880"></child>
+        </children>
+    </item>
+    <item nodeId="node-4880">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Lower Central Bukshelv Cliff
+You are at the base of the most enormous cliff imaginable. It is so steep, how on earth can you get up there? The base of the cliff stretches on to your east and west, to your south is the Plains of Car Pet.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4881"></child>
+        </children>
+    </item>
+    <item nodeId="node-4881">
+        <command xml:space="preserve"></command>
+        <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4882"></child>
+        </children>
+    </item>
+    <item nodeId="node-4882">
+        <command xml:space="preserve"></command>
+        <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4883"></child>
+        </children>
+    </item>
+    <item nodeId="node-4883">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Lower West Bukshelv Cliff
+You are at the base of the most enormous cliff imaginable. It is so steep, how on earth can you get up there? The base of the cliff stretches on to your east.
+
+You see a giant bull who seems to enjoy sitting at the base of this majestic cliff.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4884"></child>
+        </children>
+    </item>
+    <item nodeId="node-4884">
+        <command xml:space="preserve">talk to bull</command>
+        <result xml:space="preserve">(Benny the Bull) I heard that there's a magic crystal up there, but it's too steep for me.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4885"></child>
+        </children>
+    </item>
+    <item nodeId="node-4885">
+        <command xml:space="preserve">climb</command>
+        <result xml:space="preserve">What do you want to climb?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4886"></child>
+        </children>
+    </item>
+    <item nodeId="node-4886">
+        <command xml:space="preserve">bounce</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4887"></child>
+        </children>
+    </item>
+    <item nodeId="node-4887">
+        <command xml:space="preserve">u</command>
+        <result xml:space="preserve">BOING! you bounce up the Cliff with your pogo stick.
+
+Upper West Bukshelv Cliff
+You are at the top of the world, it feels like. To your east the top of the cliff continues, and below you is the lower slopes of the cliff.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4888"></child>
+        </children>
+    </item>
+    <item nodeId="node-4888">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4889"></child>
+        </children>
+    </item>
+    <item nodeId="node-4889">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Bukshelv Cliff Summit
+You are at the top of the world, it feels like. To your east and west the top of the cliff continues, and below you is the lower slopes of the cliff. You can see a large chunk of rock on the ground.
+
+Godzilla is standing at the top, enjoying the view.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4890"></child>
+        </children>
+    </item>
+    <item nodeId="node-4890">
+        <command xml:space="preserve">talk to godzill</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4891"></child>
+        </children>
+    </item>
+    <item nodeId="node-4891">
+        <command xml:space="preserve">talk to godzilla</command>
+        <result xml:space="preserve">(Godzilla) Why do you need magic powers if you have a view like this?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4892"></child>
+        </children>
+    </item>
+    <item nodeId="node-4892">
+        <command xml:space="preserve">talk to godzilla</command>
+        <result xml:space="preserve">(Godzilla) Why do you need magic powers if you have a view like this?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4893"></child>
+        </children>
+    </item>
+    <item nodeId="node-4893">
+        <command xml:space="preserve">look rock</command>
+        <result xml:space="preserve">A large chunk of rock. Maybe something is inside?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4894"></child>
+        </children>
+    </item>
+    <item nodeId="node-4894">
+        <command xml:space="preserve">look inside rock</command>
+        <result xml:space="preserve">You find nothing of interest.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4895"></child>
+        </children>
+    </item>
+    <item nodeId="node-4895">
+        <command xml:space="preserve">move rock</command>
+        <result xml:space="preserve">Nothing obvious happens.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4896"></child>
+        </children>
+    </item>
+    <item nodeId="node-4896">
+        <command xml:space="preserve">take rock</command>
+        <result xml:space="preserve">You don't need this rock, but maybe you need something inside it?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4897"></child>
+        </children>
+    </item>
+    <item nodeId="node-4897">
+        <command xml:space="preserve">break rock</command>
+        <result xml:space="preserve">You hack open the rock, revealing a blue glowing chunk of crystal.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4898"></child>
+        </children>
+    </item>
+    <item nodeId="node-4898">
+        <command xml:space="preserve">take crystal</command>
+        <result xml:space="preserve">(Blue Magic Crystal)
+Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4899"></child>
+        </children>
+    </item>
+    <item nodeId="node-4899">
+        <command xml:space="preserve">i</command>
+        <result xml:space="preserve">You are carrying:
+  Blue Magic Crystal
+  Pogo Stick
+  Pink Magic Crystal
+  Sushi
+  Green Magic Crystal
+  Small Key
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4900"></child>
+        </children>
+    </item>
+    <item nodeId="node-4900">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Upper East Bukshelv Cliff
+You are at the top of the world, it feels like. To your west the top of the cliff continues, and below you is the lower slopes of the cliff.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4901"></child>
+        </children>
+    </item>
+    <item nodeId="node-4901">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Bukshelv Cliff Summit
+You are at the top of the world, it feels like. To your east and west the top of the cliff continues, and below you is the lower slopes of the cliff. You can see a large blue Magic Crystal on the ground.
+
+Godzilla is standing at the top, enjoying the view.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4902"></child>
+        </children>
+    </item>
+    <item nodeId="node-4902">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Upper West Bukshelv Cliff
+You are at the top of the world, it feels like. To your east the top of the cliff continues, and below you is the lower slopes of the cliff.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4903"></child>
+        </children>
+    </item>
+    <item nodeId="node-4903">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4904"></child>
+        </children>
+    </item>
+    <item nodeId="node-4904">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4905"></child>
+        </children>
+    </item>
+    <item nodeId="node-4905">
+        <command xml:space="preserve">d</command>
+        <result xml:space="preserve">
+Lower West Bukshelv Cliff
+You are at the base of the most enormous cliff imaginable. It is so steep, how on earth can you get up there? The base of the cliff stretches on to your east.
+
+You see a giant bull who seems to enjoy sitting at the base of this majestic cliff.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4906"></child>
+        </children>
+    </item>
+    <item nodeId="node-4906">
+        <command xml:space="preserve">d</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4907"></child>
+        </children>
+    </item>
+    <item nodeId="node-4907">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Lower Central Bukshelv Cliff
+You are at the base of the most enormous cliff imaginable. It is so steep, how on earth can you get up there? The base of the cliff stretches on to your east and west, to your south is the Plains of Car Pet.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4908"></child>
+        </children>
+    </item>
+    <item nodeId="node-4908">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+South Plains of Car Pet
+You are in a desolate wasteland, and the ground is striped with red and white. To your north the plains continue, to your east is the Hills of Kauch and to your south is the enourmous Bukshelv Cliff.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4909"></child>
+        </children>
+    </item>
+    <item nodeId="node-4909">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+North Plains of Car Pet
+You are in a desolate wasteland, and the ground is striped with red and white. To your south the plains continue, to your west is Mount Pyanno, and to your north is the entrance to SPICH.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4910"></child>
+        </children>
+    </item>
+    <item nodeId="node-4910">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Lobby
+You are in a entrance lobby. To your west is the commons, and to your south is the exit into the land of Lhivhingrum. For some reason, no one is at the check-in desk. There is a sign on the wall.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4911"></child>
+        </children>
+    </item>
+    <item nodeId="node-4911">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4912"></child>
+        </children>
+    </item>
+    <item nodeId="node-4912">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Commons
+You are in a nicely furnished room with a fireplace and some couches and books on the shelf. To your north is the elevator, and to your east is the lobby.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4913"></child>
+        </children>
+    </item>
+    <item nodeId="node-4913">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Lobby
+You are in a entrance lobby. To your west is the commons, and to your south is the exit into the land of Lhivhingrum. For some reason, no one is at the check-in desk. There is a sign on the wall.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4914"></child>
+        </children>
+    </item>
+    <item nodeId="node-4914">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4915"></child>
+        </children>
+    </item>
+    <item nodeId="node-4915">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4916"></child>
+        </children>
+    </item>
+    <item nodeId="node-4916">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4917"></child>
+        </children>
+    </item>
+    <item nodeId="node-4917">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4918"></child>
+        </children>
+    </item>
+    <item nodeId="node-4918">
+        <command xml:space="preserve">lok</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4919"></child>
+        </children>
+    </item>
+    <item nodeId="node-4919">
+        <command xml:space="preserve">look</command>
+        <result xml:space="preserve">Lobby
+You are in a entrance lobby. To your west is the commons, and to your south is the exit into the land of Lhivhingrum. For some reason, no one is at the check-in desk. There is a sign on the wall.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4920"></child>
+        </children>
+    </item>
+    <item nodeId="node-4920">
+        <command xml:space="preserve">l</command>
+        <result xml:space="preserve">Lobby
+You are in a entrance lobby. To your west is the commons, and to your south is the exit into the land of Lhivhingrum. For some reason, no one is at the check-in desk. There is a sign on the wall.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4921"></child>
+        </children>
+    </item>
+    <item nodeId="node-4921">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Commons
+You are in a nicely furnished room with a fireplace and some couches and books on the shelf. To your north is the elevator, and to your east is the lobby.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4922"></child>
+        </children>
+    </item>
+    <item nodeId="node-4922">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Elevator Floor 1
+You are in an elevator room. The elevator can go up but not down. To your east is a hallway, and to your south is a door labeled "Commons".
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4923"></child>
+        </children>
+    </item>
+    <item nodeId="node-4923">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Hallway Outside Room 100
+You are in a hallway. To your north is a door labeled "Bear Bear's Room", Room 100, and to your east there is a hallway, and to your west there is an elevator.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4924"></child>
+        </children>
+    </item>
+    <item nodeId="node-4924">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Hallway Outside Room 101
+You are in a hallway. To your north is a door labeled "Little Giraffe's Room", Room 101, and to your east and west there is more hallway.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4925"></child>
+        </children>
+    </item>
+    <item nodeId="node-4925">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Hallway Outside Room 102
+You are in a hallway. To your north is a door labeled "Big Giraffe's Room", Room 102, and to your east and west there a hallway.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4926"></child>
+        </children>
+    </item>
+    <item nodeId="node-4926">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Hallway Outside Room 103
+You are in a hallway. To your north is a door labeled "Kelp and Seaweed's Room", Room 103, and to your west there a hallway.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4927"></child>
+        </children>
+    </item>
+    <item nodeId="node-4927">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Hallway Outside Room 102
+You are in a hallway. To your north is a door labeled "Big Giraffe's Room", Room 102, and to your east and west there a hallway.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4928"></child>
+        </children>
+    </item>
+    <item nodeId="node-4928">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Hallway Outside Room 101
+You are in a hallway. To your north is a door labeled "Little Giraffe's Room", Room 101, and to your east and west there is more hallway.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4929"></child>
+        </children>
+    </item>
+    <item nodeId="node-4929">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Hallway Outside Room 100
+You are in a hallway. To your north is a door labeled "Bear Bear's Room", Room 100, and to your east there is a hallway, and to your west there is an elevator.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4930"></child>
+        </children>
+    </item>
+    <item nodeId="node-4930">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Elevator Floor 1
+You are in an elevator room. The elevator can go up but not down. To your east is a hallway, and to your south is a door labeled "Commons".
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4931"></child>
+        </children>
+    </item>
+    <item nodeId="node-4931">
+        <command xml:space="preserve">u</command>
+        <result xml:space="preserve">
+Elevator Floor 2
+You are in an elevator room. The elevator can go up or down. To your east is a hallway.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4932"></child>
+        </children>
+    </item>
+    <item nodeId="node-4932">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Hallway Outside Room 200
+You are in a hallway. To your north is a door labeled "Sylvia's room", Room 200, and to your east there is a hallway, and to your west there is an elevator.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4933"></child>
+        </children>
+    </item>
+    <item nodeId="node-4933">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Hallway Outside Dave's Room
+You are in a hallway. To your north is a door labeled "Dave's room", Room 201, and to your east and west the hallway continues.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4934"></child>
+        </children>
+    </item>
+    <item nodeId="node-4934">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Hallway Outside Room 202
+You are in a hallway. To your north is a door labeled "Swimmy's Room", Room 202, and to your west there is a hallway.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4935"></child>
+        </children>
+    </item>
+    <item nodeId="node-4935">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Swimmy's room
+You are in a bedroom with ocean wallpaper, a bed, a couch, and a bunch of tools on top of a desk.
+
+Swimmy is sitting on the couch reading a book.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4936"></child>
+        </children>
+    </item>
+    <item nodeId="node-4936">
+        <command xml:space="preserve">talk to swimmy</command>
+        <result xml:space="preserve">You did it Dave! Now we can get your powers back!
+Swimmy places all the crystals onto your horn.
+Suddenly, you feel normal again, like if your foot was asleep and then came back. 
+
+ You go out onto the balcony and celebrate by launching fireworks from your horn.
+
+
+
+    *** Congratulations, Dave! ***
+
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
         <commentary xml:space="preserve"></commentary>
     </item>
     <item nodeId="node-4284">
