@@ -10,6 +10,7 @@ Using is an action applying to one visible thing. Understand "use [thing]" or "a
 Instead of Using something:
 	say "You can't use [the noun] right now."
 
+
 [scenes]
 
 
@@ -41,7 +42,8 @@ Dave's door is south of Dave's Bedroom. Dave's door is a door. Dave's door is sc
 
 Section - Sylvia
 
-Hallway Outside Room 200 is a room. Hallway Outside Room 200 is west of Hallway Outside Dave's Room. "You are in a hallway. To your north is a door labeled 'Sylvia's room', Room 200, and to your east there is a hallway, and to your west there is an elevator." 
+Hallway Outside Room 200 is a room. Hallway Outside Room 200 is west of Hallway Outside Dave's Room. "You are in a hallway. To your north is a door labeled 'Sylvia's room', Room 200, and to your east there is a hallway, and to your west there is an elevator." Every turn while player is in Hallway Outside room 200:
+	say "You can hear snores from under the door."
 
 Sylvia's Room is a room. Sylvia's Room is north of Sylvia's door. "You are in a pink bedroom with a bed and a closet, and an oven that smells like chocolate cake. To your south is the exit."
 
@@ -195,8 +197,8 @@ Every turn when Player can see Little Giraffe:
 	If a random chance of 1 in 2 succeeds:
 		say "[one of] A loud explosion comes from the TV. [or] Little Giraffe cheers at something on the TV. [at random]"
 		
-Instead of giving Floatie to Little Giraffe while the Spoken To of Little Giraffe is "yes":
-	remove Floatie from play;
+Instead of giving Giraffe Floatie to Little Giraffe while the Spoken To of Little Giraffe is "yes":
+	remove Giraffe Floatie from play;
 	say "(Little Giraffe) Thanks! Where was it?";
 	say "(You) It was at the pool, obviously.";
 	say "(Little Giraffe) Oh. Well, you can have this pogo stick!";
@@ -293,7 +295,7 @@ Section - Lobby
 
 Lobby is a room. Lobby is east of Commons. "You are in a entrance lobby. To your west is the commons, and to your south is the exit into the land of Lhivhingrum. For some reason, no one is at the check-in desk. There is a sign on the wall.";
 
-Sign is scenery. Sign is in Commons. Instead of examining Sign:
+Sign is scenery. Sign is in Lobby. Instead of examining Sign:
 	say "Would you like to read the whole thing? It is long.";
 	say "(Yes or No)>";
 	if player consents:
@@ -426,7 +428,7 @@ Outdoor Balcony is a room. Outdoor Balcony is south of Elevator Floor 3 and west
 
 The Pool is in the Outdoor Balcony. The description is "The sun reflects off the water, and you can see something floating on the water. It appears to be a giraffe floatie."
 
-Floatie is an object. Floatie is on The Pool. Description is "A slightly deflated pool floatie that looks like a giraffe." Floatie is undescribed. Understand "giraffe" or "giraffe floatie" as Floatie.
+Giraffe Floatie is an object. Giraffe Floatie is on The Pool. Description is "A slightly deflated pool floatie that looks like a giraffe." Giraffe Floatie is undescribed. Understand "giraffe" or "giraffe floatie" as Giraffe Floatie.
 
 Bucket is an object. Bucket is in Outdoor Balcony. Description is "A weathered metal bucket, still good enough to hold water."
 
@@ -508,6 +510,872 @@ Bucket of River Water is an object. Bucket of River Water is in Hills of Kauch. 
 		now player is carrying Bucket of River Water.
 
 
+Chapter 5 - Maeve's Game
 
+[You wake up in the morning and you are in your bedroom, but your magic powers are gone! Uh Oh...
 
+Rainbow Dave's Journey
+An Interactive Fiction by Liam Calahan
+Release 1 / Serial number 220224 / Inform 7 build 6M62 (I6/v6.34 lib 6/12N) SD
+
+Dave's Bedroom
+You are in a small bedroom with a bed and a closet. To your south is the exit.
+
+You can see a Closet (closed) here.
+
+>open closet
+You open the Closet.
+
+>s
+(first opening Dave's door)
+
+Hallway Outside Dave's Room
+You are in a hallway. To your north is a door labeled "Dave's room", Room 201, and to your east and west the hallway continues.
+
+>w
+
+Hallway Outside Room 200
+You are in a hallway. To your north is a door labeled "Sylvia's room", Room 200, and to your east there is a hallway, and to your west there is an elevator.
+
+You can hear snores from under the door.
+
+>n
+(first opening Sylvia's door)
+It seems to be locked.
+
+You can hear snores from under the door.
+
+>w
+
+Elevator Floor 2
+You are in an elevator room. The elevator can go up or down. To your east is a hallway.
+
+>d
+Hmm... maybe I should go talk to some people before I leave.
+
+>look
+Elevator Floor 2
+You are in an elevator room. The elevator can go up or down. To your east is a hallway.
+
+>e
+
+Hallway Outside Room 200
+You are in a hallway. To your north is a door labeled "Sylvia's room", Room 200, and to your east there is a hallway, and to your west there is an elevator.
+
+You can hear snores from under the door.
+
+>e
+
+Hallway Outside Dave's Room
+You are in a hallway. To your north is a door labeled "Dave's room", Room 201, and to your east and west the hallway continues.
+
+>e
+
+Hallway Outside Room 202
+You are in a hallway. To your north is a door labeled "Swimmy's Room", Room 202, and to your west there is a hallway.
+
+>n
+(first opening Swimmy's door)
+
+Swimmy's room
+You are in a bedroom with ocean wallpaper, a bed, a couch, and a bunch of tools on top of a desk.
+
+Swimmy is sitting on the couch reading a book.
+
+>talk
+(to Swimmy)
+(Swimmy) Hi Dave, what is it?
+(You) I lost my magic powers this morning.
+(Swimmy) Oh no!
+He pauses and looks something up on his computer.
+(Swimmy) Apparently you can get them back, you just need to find 3 magic crystals! Maybe you can find them. Look around! And if you find them, make sure to bring them back to me.
+
+>look
+Swimmy's room
+You are in a bedroom with ocean wallpaper, a bed, a couch, and a bunch of tools on top of a desk.
+
+Swimmy is sitting on the couch reading a book.
+
+>s
+
+Hallway Outside Room 202
+You are in a hallway. To your north is a door labeled "Swimmy's Room", Room 202, and to your west there is a hallway.
+
+>w
+
+Hallway Outside Dave's Room
+You are in a hallway. To your north is a door labeled "Dave's room", Room 201, and to your east and west the hallway continues.
+
+>w
+
+Hallway Outside Room 200
+You are in a hallway. To your north is a door labeled "Sylvia's room", Room 200, and to your east there is a hallway, and to your west there is an elevator.
+
+You can hear snores from under the door.
+
+>w
+
+Elevator Floor 2
+You are in an elevator room. The elevator can go up or down. To your east is a hallway.
+
+>d
+
+Elevator Floor 1
+You are in an elevator room. The elevator can go up but not down. To your east is a hallway, and to your south is a door labeled "Commons".
+
+>s
+
+Commons
+You are in a nicely furnished room with a fireplace and some couches and books on the shelf. To your north is the elevator, and to your east is the lobby.
+
+>take books
+That's hardly portable.
+
+>e
+
+Lobby
+You are in a entrance lobby. To your west is the commons, and to your south is the exit into the land of Lhivhingrum. For some reason, no one is at the check-in desk. There is a sign on the wall.
+
+>look at sign
+You can't see any such thing.
+
+>read sign
+You can't see any such thing.
+
+>w
+
+Commons
+You are in a nicely furnished room with a fireplace and some couches and books on the shelf. To your north is the elevator, and to your east is the lobby.
+
+>n
+
+Elevator Floor 1
+You are in an elevator room. The elevator can go up but not down. To your east is a hallway, and to your south is a door labeled "Commons".
+
+>e
+
+Hallway Outside Room 100
+You are in a hallway. To your north is a door labeled "Bear Bear's Room", Room 100, and to your east there is a hallway, and to your west there is an elevator.
+
+>n
+(first opening BearBear's door)
+
+BearBear's room
+You are in a bedroom with honey wallpaper, a bed, a couch, a TV, and a bunch of books on top of a shelf.
+
+Bear Bear is sitting on the couch watching basketball.
+
+>talk
+(to BearBear)
+(Bear Bear) What is it, Dave?
+(You) Oh, I lost my powers this morning...
+(Bear Bear) Hmmm... I have something that might help you, but could you find me a honey cake from the kitchen first?
+(You) Ok, I will bring one back here.
+
+Bear Bear yells at the TV.
+
+>e
+You can't go that way.
+
+>s
+
+Hallway Outside Room 100
+You are in a hallway. To your north is a door labeled "Bear Bear's Room", Room 100, and to your east there is a hallway, and to your west there is an elevator.
+
+>e
+
+Hallway Outside Room 101
+You are in a hallway. To your north is a door labeled "Little Giraffe's Room", Room 101, and to your east and west there is more hallway.
+
+>n
+(first opening Little Giraffe's door)
+
+Little Giraffe's room
+You are in a bedroom with grassy wallpaper, a bed, a couch, and a desk.
+
+Little Giraffe is sitting on the couch watching TV.
+
+>talk
+(to Little Giraffe)
+(Little Giraffe) What is it, Dave? Did you bring me candy?
+(You) No, but I lost my powers this morning...
+(Little Giraffe) Maybe I have something that will help. If you find my pool floatie I will give you one of my special toys!
+(You) Ok, I will find it!.
+
+>look at TV
+Little Giraffe is watching Muffy the Stuffie. This episode is about Muffy trying to blow up the car so she doesn't have to go to the vet.
+
+ A loud explosion comes from the TV. 
+>s
+
+Hallway Outside Room 101
+You are in a hallway. To your north is a door labeled "Little Giraffe's Room", Room 101, and to your east and west there is more hallway.
+
+>e
+
+Hallway Outside Room 102
+You are in a hallway. To your north is a door labeled "Big Giraffe's Room", Room 102, and to your east and west there a hallway.
+
+>n
+(first opening Big Giraffe's door)
+
+Big Giraffe's room
+You are in a bedroom with grassy wallpaper, a bed, a couch, and photos on the wall.
+
+Big Giraffe is sewing something.
+
+>talk
+(to Big Giraffe)
+(Big Giraffe) Hi Dave.
+(You) I lost my powers this morning!
+(Big Giraffe) Oh no! Sorry, but there is not much I can do. Try talking to Little Giraffe.
+(You) I already did!
+(Big Giraffe) Oh, then maybe she has something for you. Good luck Dave!
+
+>s
+
+Hallway Outside Room 102
+You are in a hallway. To your north is a door labeled "Big Giraffe's Room", Room 102, and to your east and west there a hallway.
+
+>e
+
+Hallway Outside Room 103
+You are in a hallway. To your north is a door labeled "Kelp and Seaweed's Room", Room 103, and to your west there a hallway.
+
+>n
+(first opening Kelpweed's door)
+
+Kelpweed's room
+You are in a bedroom with ocean wallpaper, two beds, a couch, and a desk.
+
+Kelp is reading on the couch.
+
+>talk
+(to Kelp)
+(Kelp) Hi Dave.
+(You) I lost my powers this morning! I need magic crystals!
+(Kelp) Oh no! Well, you're in luck, because I have a way to make magic crystals! The only problem is that I need river water, and I lost my bucket. Also, I forgot where the river is.
+(You) I'll get some river water for you!
+(Kelp) I will make a crystal for you then!
+
+>s
+
+Hallway Outside Room 103
+You are in a hallway. To your north is a door labeled "Kelp and Seaweed's Room", Room 103, and to your west there a hallway.
+
+>w
+
+Hallway Outside Room 102
+You are in a hallway. To your north is a door labeled "Big Giraffe's Room", Room 102, and to your east and west there a hallway.
+
+>w
+
+Hallway Outside Room 101
+You are in a hallway. To your north is a door labeled "Little Giraffe's Room", Room 101, and to your east and west there is more hallway.
+
+>w
+
+Hallway Outside Room 100
+You are in a hallway. To your north is a door labeled "Bear Bear's Room", Room 100, and to your east there is a hallway, and to your west there is an elevator.
+
+>w
+
+Elevator Floor 1
+You are in an elevator room. The elevator can go up but not down. To your east is a hallway, and to your south is a door labeled "Commons".
+
+>u
+
+Elevator Floor 2
+You are in an elevator room. The elevator can go up or down. To your east is a hallway.
+
+>u
+
+Elevator Floor 3
+You are in an elevator room. The elevator can go down but not up. To your south is a door labeled "Pool", and to your east is a door labeled "Dining Room and Rooms".
+
+>s
+
+Outdoor Balcony
+A large balcony. To the east is the Dining Room, and to the North is the Elevator.
+
+You can see a Pool and Bucket here.
+
+>take bucket
+Taken.
+
+>look at pool
+The sun reflects off the water, and you can see something floating on the water. It appears to be a giraffe floatie.
+
+>take floatie
+Taken.
+
+>e
+
+Dining Room
+You are in a large area with a bunch of round tables. To your north is a hallway, and to your west is a door to the pool.
+
+Orca is sitting at one of the tables.
+
+Fladibearius is sitting at another table.
+
+>talk
+Whom do you want to talk to?
+
+>orca
+(Orca) Swimmy told me what happened, Dave.
+(You) Can you help me?
+(Orca) What do you need?
+(You) Um, nothing.
+(Orca) Well, have some sushi!
+You eat sushi with Orca.
+(Orca) Bye Dave!
+
+>talk
+Whom do you want to talk to?
+
+>fladibearius
+(Fladibearius) Hi Dave, I heard about what happened. I can't really help you, sorry!
+(You) That's fine Fladibearius. What are you eating?
+(Fladibearius) This is honey cake. Do you want any?
+(Yes or No)>yes
+(Fladibearius) Here you are!
+
+>i
+You are carrying:
+  Honey Cake
+  Giraffe Floatie
+  Bucket
+
+>n
+
+Hallway Outside Room 300
+You are in a hallway. To your north is a door labeled "Tiggery's Room", Room 300, and to your east there is a hallway, to your west is an elevator, and to your south is the dining room.
+
+>n
+(first opening Tiggery's door)
+
+Tiggery's Room
+You are in a bedroom with orange striped wallpaper, a bed, a couch, a desk, and tools hanging on the wall.
+
+Tiggery is making something with his tools.
+
+>talk
+(to Tiggery)
+(Tiggery) What's going on, Dave?
+(You) I lost my powers this morning!
+(Tiggery) That's not good! Swimmy probably already told you, but you need apparently 3 magic crystals.
+(You) I know!
+(Tiggery) Anyway, I don't have anything to help you with, sorry. If you could bring me some sushi that would be good though!
+
+>s
+
+Hallway Outside Room 300
+You are in a hallway. To your north is a door labeled "Tiggery's Room", Room 300, and to your east there is a hallway, to your west is an elevator, and to your south is the dining room.
+
+>s
+
+Dining Room
+You are in a large area with a bunch of round tables. To your north is a hallway, and to your west is a door to the pool.
+
+Orca is sitting at one of the tables.
+
+Fladibearius is sitting at another table.
+
+>talk to orca
+(Orca) Hi again! Do you need anything?
+(You) Could I have some sushi to take to Tiggery?
+(Orca) Sure! Here you go! Bye!
+
+>save
+Save failed.
+
+>i
+You are carrying:
+  Sushi
+  Honey Cake
+  Giraffe Floatie
+  Bucket
+
+>n
+
+Hallway Outside Room 300
+You are in a hallway. To your north is a door labeled "Tiggery's Room", Room 300, and to your east there is a hallway, to your west is an elevator, and to your south is the dining room.
+
+>n
+
+Tiggery's Room
+You are in a bedroom with orange striped wallpaper, a bed, a couch, a desk, and tools hanging on the wall.
+
+Tiggery is making something with his tools.
+
+>give sushi
+(to Tiggery)
+(Tiggery) Oh wow! Thank you!
+(Tiggery) I just realized, I can give you this Key. I don't know why you would want it, but here you go!
+
+>i
+You are carrying:
+  Sylvia's Key
+  Honey Cake
+  Giraffe Floatie
+  Bucket
+
+>s
+
+Hallway Outside Room 300
+You are in a hallway. To your north is a door labeled "Tiggery's Room", Room 300, and to your east there is a hallway, to your west is an elevator, and to your south is the dining room.
+
+>e
+
+Hallway Outside Room 301
+You are in a hallway. To your north is a door labeled "Orca's Room", Room 301, and to your east and west there is hallway.
+
+>n
+(first opening Orca's door)
+It seems to be locked.
+
+>e
+
+Hallway Outside Room 302
+You are in a hallway. To your north is a door labeled "Fladibearius' Room", Room 302, and to your west there is a hallway.
+
+>n
+(first opening Fladibearius' door)
+It seems to be locked.
+
+>w
+
+Hallway Outside Room 301
+You are in a hallway. To your north is a door labeled "Orca's Room", Room 301, and to your east and west there is hallway.
+
+>w
+
+Hallway Outside Room 300
+You are in a hallway. To your north is a door labeled "Tiggery's Room", Room 300, and to your east there is a hallway, to your west is an elevator, and to your south is the dining room.
+
+>w
+
+Elevator Floor 3
+You are in an elevator room. The elevator can go down but not up. To your south is a door labeled "Pool", and to your east is a door labeled "Dining Room and Rooms".
+
+>d
+
+Elevator Floor 2
+You are in an elevator room. The elevator can go up or down. To your east is a hallway.
+
+>e
+
+Hallway Outside Room 200
+You are in a hallway. To your north is a door labeled "Sylvia's room", Room 200, and to your east there is a hallway, and to your west there is an elevator.
+
+You can hear snores from under the door.
+
+>n
+(first opening Sylvia's door)
+It seems to be locked.
+
+You can hear snores from under the door.
+
+>unlock door
+What do you want to unlock Sylvia's door with?
+
+>key
+You unlock Sylvia's door.
+
+You can hear snores from under the door.
+
+>n
+(first opening Sylvia's door)
+
+Sylvia's Room
+You are in a pink bedroom with a bed and a closet, and an oven that smells like chocolate cake. To your south is the exit.
+
+Sylvia is snoring loudly on the bed.
+
+>wake sylvia up
+Sylvia wakes up.
+(Sylvia) What is going on???
+(You) I lost all of my powers! Do you have a magic crystal?
+(Sylvia) Yes, but I will give you one only if you bring me chocolate.
+
+Sylvia fell asleep again.
+
+>e
+You can't go that way.
+
+>s
+
+Hallway Outside Room 200
+You are in a hallway. To your north is a door labeled "Sylvia's room", Room 200, and to your east there is a hallway, and to your west there is an elevator.
+
+You can hear snores from under the door.
+
+>w
+
+Elevator Floor 2
+You are in an elevator room. The elevator can go up or down. To your east is a hallway.
+
+>d
+
+Elevator Floor 1
+You are in an elevator room. The elevator can go up but not down. To your east is a hallway, and to your south is a door labeled "Commons".
+
+>e
+
+Hallway Outside Room 100
+You are in a hallway. To your north is a door labeled "Bear Bear's Room", Room 100, and to your east there is a hallway, and to your west there is an elevator.
+
+>n
+
+BearBear's room
+You are in a bedroom with honey wallpaper, a bed, a couch, a TV, and a bunch of books on top of a shelf.
+
+Bear Bear is sitting on the couch watching basketball.
+
+>give cake
+(to BearBear)
+(Bear Bear) Oh wow! Thank you!
+(Bear Bear) Thanks! Hmm, what can I give you? Oh! I have some M&Ms. Here you go!
+
+>i
+You are carrying:
+  Chocolate Candies
+  Sylvia's Key
+  Giraffe Floatie
+  Bucket
+
+>s
+
+Hallway Outside Room 100
+You are in a hallway. To your north is a door labeled "Bear Bear's Room", Room 100, and to your east there is a hallway, and to your west there is an elevator.
+
+>e
+
+Hallway Outside Room 101
+You are in a hallway. To your north is a door labeled "Little Giraffe's Room", Room 101, and to your east and west there is more hallway.
+
+>n
+
+Little Giraffe's room
+You are in a bedroom with grassy wallpaper, a bed, a couch, and a desk.
+
+Little Giraffe is sitting on the couch watching TV.
+
+ Little Giraffe cheers at something on the TV. 
+>give floatie
+(to Little Giraffe)
+(Little Giraffe) Thanks! Where was it?
+(You) It was at the pool, obviously.
+(Little Giraffe) Oh. Well, you can have this pogo stick!
+
+>i
+You are carrying:
+  Pogo Stick
+  Chocolate Candies
+  Sylvia's Key
+  Bucket
+
+ A loud explosion comes from the TV. 
+>s
+
+Hallway Outside Room 101
+You are in a hallway. To your north is a door labeled "Little Giraffe's Room", Room 101, and to your east and west there is more hallway.
+
+>w
+
+Hallway Outside Room 100
+You are in a hallway. To your north is a door labeled "Bear Bear's Room", Room 100, and to your east there is a hallway, and to your west there is an elevator.
+
+>w
+
+Elevator Floor 1
+You are in an elevator room. The elevator can go up but not down. To your east is a hallway, and to your south is a door labeled "Commons".
+
+>d
+You can't go that way.
+
+>e
+
+Hallway Outside Room 100
+You are in a hallway. To your north is a door labeled "Bear Bear's Room", Room 100, and to your east there is a hallway, and to your west there is an elevator.
+
+>w
+
+Elevator Floor 1
+You are in an elevator room. The elevator can go up but not down. To your east is a hallway, and to your south is a door labeled "Commons".
+
+>s
+
+Commons
+You are in a nicely furnished room with a fireplace and some couches and books on the shelf. To your north is the elevator, and to your east is the lobby.
+
+>e
+
+Lobby
+You are in a entrance lobby. To your west is the commons, and to your south is the exit into the land of Lhivhingrum. For some reason, no one is at the check-in desk. There is a sign on the wall.
+
+>s
+
+North Plains of Car Pet
+You are in a desolate wasteland, and the ground is striped with red and white. To your south the plains continue, to your west is Mount Pyanno, and to your north is the entrance to SPICH.
+
+>w
+
+Lower Mount Pyanno
+You are on the lower base of a high mountain. The mountain is made of some sort of black rock. The Mountain continues to your west.
+
+>w
+
+Upper Mount Pyanno
+You are near the peak of Mount Pyanno. It is too steep to fully summit, though.
+
+>e
+
+Lower Mount Pyanno
+You are on the lower base of a high mountain. The mountain is made of some sort of black rock. The Mountain continues to your west.
+
+>e
+
+North Plains of Car Pet
+You are in a desolate wasteland, and the ground is striped with red and white. To your south the plains continue, to your west is Mount Pyanno, and to your north is the entrance to SPICH.
+
+>s
+
+South Plains of Car Pet
+You are in a desolate wasteland, and the ground is striped with red and white. To your north the plains continue, to your east is the Hills of Kauch, where you can see the Kauch River, and to your south is the enourmous Bukshelv Cliff.
+
+>e
+
+Hills of Kauch
+You are on some navy blue hills and to your east is a view that seems to go on forever. To your west is the South Plains of Car Pet. 
+
+ You are at the edge of a large rushing river, the Kauch River.
+
+>use bucket
+(Bucket)
+You fill the Bucket with water from the river.
+
+>w
+
+South Plains of Car Pet
+You are in a desolate wasteland, and the ground is striped with red and white. To your north the plains continue, to your east is the Hills of Kauch, where you can see the Kauch River, and to your south is the enourmous Bukshelv Cliff.
+
+>s
+
+Lower Central Bukshelv Cliff
+You are at the base of the most enormous cliff imaginable. It is so steep, how on earth can you get up there? The base of the cliff stretches on to your east and west, to your south is the Plains of Car Pet.
+
+>up
+BOING! you bounce up the Cliff with your pogo stick.
+
+Bukshelv Cliff Summit
+You are at the top of the world, it feels like. To your east and west the top of the cliff continues, and below you is the lower slopes of the cliff. You can see a large chunk of rock on the ground.
+
+Godzilla is standing at the top, enjoying the view.
+
+>talk
+(to Godzilla)
+(Godzilla) Why do you need magic powers if you have a view like this?
+
+>look at rock
+A large chunk of rock. Maybe something is inside?
+
+>break rock
+You hack open the rock, revealing a blue glowing chunk of crystal.
+
+>take
+(Godzilla)
+I don't suppose Godzilla would care for that.
+
+>take crystal
+Taken.
+
+>i
+You are carrying:
+  Blue Magic Crystal
+  Bucket of River Water
+  Pogo Stick
+  Chocolate Candies
+  Sylvia's Key
+
+>d
+
+Lower Central Bukshelv Cliff
+You are at the base of the most enormous cliff imaginable. It is so steep, how on earth can you get up there? The base of the cliff stretches on to your east and west, to your south is the Plains of Car Pet.
+
+>n
+
+South Plains of Car Pet
+You are in a desolate wasteland, and the ground is striped with red and white. To your north the plains continue, to your east is the Hills of Kauch, where you can see the Kauch River, and to your south is the enourmous Bukshelv Cliff.
+
+>n
+
+North Plains of Car Pet
+You are in a desolate wasteland, and the ground is striped with red and white. To your south the plains continue, to your west is Mount Pyanno, and to your north is the entrance to SPICH.
+
+>n
+
+Lobby
+You are in a entrance lobby. To your west is the commons, and to your south is the exit into the land of Lhivhingrum. For some reason, no one is at the check-in desk. There is a sign on the wall.
+
+>n
+You can't go that way.
+
+>w
+
+Commons
+You are in a nicely furnished room with a fireplace and some couches and books on the shelf. To your north is the elevator, and to your east is the lobby.
+
+>n
+
+Elevator Floor 1
+You are in an elevator room. The elevator can go up but not down. To your east is a hallway, and to your south is a door labeled "Commons".
+
+>e
+
+Hallway Outside Room 100
+You are in a hallway. To your north is a door labeled "Bear Bear's Room", Room 100, and to your east there is a hallway, and to your west there is an elevator.
+
+>e
+
+Hallway Outside Room 101
+You are in a hallway. To your north is a door labeled "Little Giraffe's Room", Room 101, and to your east and west there is more hallway.
+
+>e
+
+Hallway Outside Room 102
+You are in a hallway. To your north is a door labeled "Big Giraffe's Room", Room 102, and to your east and west there a hallway.
+
+>e
+
+Hallway Outside Room 103
+You are in a hallway. To your north is a door labeled "Kelp and Seaweed's Room", Room 103, and to your west there a hallway.
+
+>n
+
+Kelpweed's room
+You are in a bedroom with ocean wallpaper, two beds, a couch, and a desk.
+
+Kelp is reading on the couch.
+
+>give bucket
+(to Kelp)
+(Kelp) Oh, you found it! Nice.
+Kelp puts it in a pot with a bunch of other ingredients, and it bubbles and pops.
+(Kelp) Here you go!
+
+>i
+You are carrying:
+  Green Magic Crystal
+  Blue Magic Crystal
+  Pogo Stick
+  Chocolate Candies
+  Sylvia's Key
+
+>s
+
+Hallway Outside Room 103
+You are in a hallway. To your north is a door labeled "Kelp and Seaweed's Room", Room 103, and to your west there a hallway.
+
+>w
+
+Hallway Outside Room 102
+You are in a hallway. To your north is a door labeled "Big Giraffe's Room", Room 102, and to your east and west there a hallway.
+
+>w
+
+Hallway Outside Room 101
+You are in a hallway. To your north is a door labeled "Little Giraffe's Room", Room 101, and to your east and west there is more hallway.
+
+>w
+
+Hallway Outside Room 100
+You are in a hallway. To your north is a door labeled "Bear Bear's Room", Room 100, and to your east there is a hallway, and to your west there is an elevator.
+
+>w
+
+Elevator Floor 1
+You are in an elevator room. The elevator can go up but not down. To your east is a hallway, and to your south is a door labeled "Commons".
+
+>u
+
+Elevator Floor 2
+You are in an elevator room. The elevator can go up or down. To your east is a hallway.
+
+>e
+
+Hallway Outside Room 200
+You are in a hallway. To your north is a door labeled "Sylvia's room", Room 200, and to your east there is a hallway, and to your west there is an elevator.
+
+You can hear snores from under the door.
+
+>n
+
+Sylvia's Room
+You are in a pink bedroom with a bed and a closet, and an oven that smells like chocolate cake. To your south is the exit.
+
+Sylvia is yet again asleep.
+
+>give candys
+You can't see any such thing.
+
+>give candies
+(to Sylvia)
+(Sylvia) Hmmmmmm? Oh, CHOCOLATE!!!!!!
+(Sylvia) Ok, I guess I should give you your magic crystal now.
+
+>i
+You are carrying:
+  Pink Magic Crystal
+  Green Magic Crystal
+  Blue Magic Crystal
+  Pogo Stick
+  Sylvia's Key
+
+>s
+
+Hallway Outside Room 200
+You are in a hallway. To your north is a door labeled "Sylvia's room", Room 200, and to your east there is a hallway, and to your west there is an elevator.
+
+You can hear snores from under the door.
+
+>w
+
+Elevator Floor 2
+You are in an elevator room. The elevator can go up or down. To your east is a hallway.
+
+>e
+
+Hallway Outside Room 200
+You are in a hallway. To your north is a door labeled "Sylvia's room", Room 200, and to your east there is a hallway, and to your west there is an elevator.
+
+You can hear snores from under the door.
+
+>e
+
+Hallway Outside Dave's Room
+You are in a hallway. To your north is a door labeled "Dave's room", Room 201, and to your east and west the hallway continues.
+
+>
+I beg your pardon?
+
+>e
+
+Hallway Outside Room 202
+You are in a hallway. To your north is a door labeled "Swimmy's Room", Room 202, and to your west there is a hallway.
+
+>n
+
+Swimmy's room
+You are in a bedroom with ocean wallpaper, a bed, a couch, and a bunch of tools on top of a desk.
+
+Swimmy is sitting on the couch reading a book.
+
+>talk
+(to Swimmy)
+You did it Dave! Now we can get your powers back!
+Swimmy places all the crystals onto your horn.
+Suddenly, you feel normal again, like if your foot was asleep and then came back. 
+
+ You go out onto the balcony and celebrate by launching fireworks from your horn.]
 
