@@ -1,6 +1,7 @@
 "Rainbow Dave's Journey" by Liam Calahan
 
 [rules]
+Release along with an interpreter.
 Talking to is an action applying to one visible thing. Understand "talk to [someone]" or “converse with [someone]” as talking to.
 
 A person has a text called Spoken To. The Spoken To of a person is usually "no".

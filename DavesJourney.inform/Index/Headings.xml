@@ -11,189 +11,189 @@
     </dict>
     <key>1</key><dict>
         <key>Filename</key><string>/Users/liam/Desktop/dev/DavesJourney/DavesJourney.inform/Source/story.ni</string>
-        <key>Line</key><integer>27</integer>
+        <key>Line</key><integer>28</integer>
         <key>Title</key><string>Chapter 1 - Starting Floor</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>2</key><dict>
         <key>Filename</key><string>/Users/liam/Desktop/dev/DavesJourney/DavesJourney.inform/Source/story.ni</string>
-        <key>Line</key><integer>31</integer>
+        <key>Line</key><integer>32</integer>
         <key>Title</key><string>Section - Dave</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>3</key><dict>
         <key>Filename</key><string>/Users/liam/Desktop/dev/DavesJourney/DavesJourney.inform/Source/story.ni</string>
-        <key>Line</key><integer>43</integer>
+        <key>Line</key><integer>44</integer>
         <key>Title</key><string>Section - Sylvia</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>4</key><dict>
         <key>Filename</key><string>/Users/liam/Desktop/dev/DavesJourney/DavesJourney.inform/Source/story.ni</string>
-        <key>Line</key><integer>92</integer>
+        <key>Line</key><integer>93</integer>
         <key>Title</key><string>Section - Swimmy</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>5</key><dict>
         <key>Filename</key><string>/Users/liam/Desktop/dev/DavesJourney/DavesJourney.inform/Source/story.ni</string>
-        <key>Line</key><integer>130</integer>
+        <key>Line</key><integer>131</integer>
         <key>Title</key><string>Section - Elevators</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>6</key><dict>
         <key>Filename</key><string>/Users/liam/Desktop/dev/DavesJourney/DavesJourney.inform/Source/story.ni</string>
-        <key>Line</key><integer>140</integer>
+        <key>Line</key><integer>141</integer>
         <key>Title</key><string>Chapter 2 - Bottom Floor</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>7</key><dict>
         <key>Filename</key><string>/Users/liam/Desktop/dev/DavesJourney/DavesJourney.inform/Source/story.ni</string>
-        <key>Line</key><integer>144</integer>
+        <key>Line</key><integer>145</integer>
         <key>Title</key><string>Section - Bear Bear</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>8</key><dict>
         <key>Filename</key><string>/Users/liam/Desktop/dev/DavesJourney/DavesJourney.inform/Source/story.ni</string>
-        <key>Line</key><integer>181</integer>
+        <key>Line</key><integer>182</integer>
         <key>Title</key><string>Section - Little Giraffe</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>9</key><dict>
         <key>Filename</key><string>/Users/liam/Desktop/dev/DavesJourney/DavesJourney.inform/Source/story.ni</string>
-        <key>Line</key><integer>217</integer>
+        <key>Line</key><integer>218</integer>
         <key>Title</key><string>Section - Big Giraffe</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>10</key><dict>
         <key>Filename</key><string>/Users/liam/Desktop/dev/DavesJourney/DavesJourney.inform/Source/story.ni</string>
-        <key>Line</key><integer>245</integer>
+        <key>Line</key><integer>246</integer>
         <key>Title</key><string>Section - Kelp and Seaweed</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>11</key><dict>
         <key>Filename</key><string>/Users/liam/Desktop/dev/DavesJourney/DavesJourney.inform/Source/story.ni</string>
-        <key>Line</key><integer>282</integer>
+        <key>Line</key><integer>283</integer>
         <key>Title</key><string>Section - Commons</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>12</key><dict>
         <key>Filename</key><string>/Users/liam/Desktop/dev/DavesJourney/DavesJourney.inform/Source/story.ni</string>
-        <key>Line</key><integer>294</integer>
+        <key>Line</key><integer>295</integer>
         <key>Title</key><string>Section - Lobby</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>13</key><dict>
         <key>Filename</key><string>/Users/liam/Desktop/dev/DavesJourney/DavesJourney.inform/Source/story.ni</string>
-        <key>Line</key><integer>308</integer>
+        <key>Line</key><integer>309</integer>
         <key>Title</key><string>Chapter 3 - Top Floor</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>14</key><dict>
         <key>Filename</key><string>/Users/liam/Desktop/dev/DavesJourney/DavesJourney.inform/Source/story.ni</string>
-        <key>Line</key><integer>312</integer>
+        <key>Line</key><integer>313</integer>
         <key>Title</key><string>Section - Tiggery</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>15</key><dict>
         <key>Filename</key><string>/Users/liam/Desktop/dev/DavesJourney/DavesJourney.inform/Source/story.ni</string>
-        <key>Line</key><integer>344</integer>
+        <key>Line</key><integer>345</integer>
         <key>Title</key><string>Section - Orca Room</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>16</key><dict>
         <key>Filename</key><string>/Users/liam/Desktop/dev/DavesJourney/DavesJourney.inform/Source/story.ni</string>
-        <key>Line</key><integer>354</integer>
+        <key>Line</key><integer>355</integer>
         <key>Title</key><string>Section - Fladibearius' Room</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>17</key><dict>
         <key>Filename</key><string>/Users/liam/Desktop/dev/DavesJourney/DavesJourney.inform/Source/story.ni</string>
-        <key>Line</key><integer>362</integer>
+        <key>Line</key><integer>363</integer>
         <key>Title</key><string>Section - Dining Room</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>18</key><dict>
         <key>Filename</key><string>/Users/liam/Desktop/dev/DavesJourney/DavesJourney.inform/Source/story.ni</string>
-        <key>Line</key><integer>367</integer>
+        <key>Line</key><integer>368</integer>
         <key>Title</key><string>Section - Orca</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>19</key><dict>
         <key>Filename</key><string>/Users/liam/Desktop/dev/DavesJourney/DavesJourney.inform/Source/story.ni</string>
-        <key>Line</key><integer>398</integer>
+        <key>Line</key><integer>399</integer>
         <key>Title</key><string>Section - Fladibearius</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>20</key><dict>
         <key>Filename</key><string>/Users/liam/Desktop/dev/DavesJourney/DavesJourney.inform/Source/story.ni</string>
-        <key>Line</key><integer>425</integer>
+        <key>Line</key><integer>426</integer>
         <key>Title</key><string>Section - Pool</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>21</key><dict>
         <key>Filename</key><string>/Users/liam/Desktop/dev/DavesJourney/DavesJourney.inform/Source/story.ni</string>
-        <key>Line</key><integer>435</integer>
+        <key>Line</key><integer>436</integer>
         <key>Title</key><string>Chapter 4 - Outside of SPICH</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>22</key><dict>
         <key>Filename</key><string>/Users/liam/Desktop/dev/DavesJourney/DavesJourney.inform/Source/story.ni</string>
-        <key>Line</key><integer>439</integer>
+        <key>Line</key><integer>440</integer>
         <key>Title</key><string>Section - Plains of Car Pet</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>23</key><dict>
         <key>Filename</key><string>/Users/liam/Desktop/dev/DavesJourney/DavesJourney.inform/Source/story.ni</string>
-        <key>Line</key><integer>445</integer>
+        <key>Line</key><integer>446</integer>
         <key>Title</key><string>Section - Mount Pyanno</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>24</key><dict>
         <key>Filename</key><string>/Users/liam/Desktop/dev/DavesJourney/DavesJourney.inform/Source/story.ni</string>
-        <key>Line</key><integer>451</integer>
+        <key>Line</key><integer>452</integer>
         <key>Title</key><string>Section - Lower Bukshelv Cliff</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>25</key><dict>
         <key>Filename</key><string>/Users/liam/Desktop/dev/DavesJourney/DavesJourney.inform/Source/story.ni</string>
-        <key>Line</key><integer>471</integer>
+        <key>Line</key><integer>472</integer>
         <key>Title</key><string>Section - Upper Bukshelv Cliff</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>26</key><dict>
         <key>Filename</key><string>/Users/liam/Desktop/dev/DavesJourney/DavesJourney.inform/Source/story.ni</string>
-        <key>Line</key><integer>500</integer>
+        <key>Line</key><integer>501</integer>
         <key>Title</key><string>Section - Hills of Kauch</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>27</key><dict>
         <key>Filename</key><string>/Users/liam/Desktop/dev/DavesJourney/DavesJourney.inform/Source/story.ni</string>
-        <key>Line</key><integer>513</integer>
+        <key>Line</key><integer>514</integer>
         <key>Title</key><string>Chapter 5 - Maeve's Game</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>1</integer>
